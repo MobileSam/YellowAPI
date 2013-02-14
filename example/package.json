@@ -1,0 +1,13 @@
+{
+	"name": "YellowAPI Test",
+	"version": "0.0.1",
+	"private": "true",
+	"dependencies": {
+		"express": "3.0.0alpha4",
+		"jade": "*",
+		"stylus": "*",
+		"nib": "*",
+		"node.extend": "*",
+		"yellowapi": "1.0.0"
+	}
+}

@@ -1,0 +1,61 @@
+extends layout
+
+mixin actionbar(phone, direction, website)
+  .merchantActions
+    ul
+      if phone
+        li
+          a.button(href='tel:' + phone, title='Call') #{phone}
+
+      if website
+        li
+          a.busson(href=website) Website
+
+      if direction
+        li
+          a.button(href=direction, title='Map') Directions
+
+
+block content
+  #detail-page
+    .detailHeader
+      div
+        - var logo = 'http://mobile.yp.ca/images/nologo.png'
+
+        if  details.logos && details.logos.EN
+          - logo = details.logos.EN
+
+        img(alt=details.name, src=logo)
+        .detailHeaderRight
+          h2 #{details.name}
+          em.rating.rating0
+            span
+            span
+            span
+            span
+            span
+          p
+            if details.address.street
+              | #{details.address.street},&nbsp;
+
+            if details.address.city
+              | #{details.address.city},&nbsp;
+
+            if details.address.prov
+              | #{details.address.prov}
+
+            | &nbsp;
+
+    mixin actionbar(details.phones[0].dispNum, 'http://maps.google.com/maps?hl=en&amp;daddr=833%2C+av+Myrand+Qu%C3%A9bec%2C+QC+G1V2V8@46.7880751386,-71.269213&amp;saddr=46.792328399999995,-71.28602409999999" unica="/unica/business/directions?ypId=868859', details.products.webUrl[0])
+
+    .businessInfo
+      if details.geoCode && details.geoCode.latitude && details.geoCode.longitude
+        h3.contentTitle.gettingThereIcon
+          span Getting There
+        .content
+          .info
+            .mapWrap.emptyPin
+              a#map(href='#')
+                img(alt="Map", src='http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/' + details.geoCode.latitude + '%2C' + details.geoCode.longitude + '/14?mapSize=760,200&amp;key=Am86Np7EmChmJsDjqWFyMtucFyjDk8lF8rp67zYuKPxAChbhIzFm38ZK_4YEqKtn')
+
+      mixin actionbar(details.phones[0].dispNum, 'http://maps.google.com/maps?hl=en&amp;daddr=833%2C+av+Myrand+Qu%C3%A9bec%2C+QC+G1V2V8@46.7880751386,-71.269213&amp;saddr=46.792328399999995,-71.28602409999999" unica="/unica/business/directions?ypId=868859', details.products.webUrl[0])

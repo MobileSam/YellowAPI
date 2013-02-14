@@ -1,0 +1,88 @@
+extend layout
+
+block content
+  .boxFilter.slideBar
+    ul
+      li
+        a(href='#', data-filter='fto') Photos
+      li
+        a(href='#', data-filter='vdo') Videos
+      li
+        a(href='#', data-filter='rr') Reviews
+    p
+      a(href=path + '?sflag=flag') Apply
+      span Deselect all filters to view all results
+
+  nav.tabsSearch
+    a#listing.button.active(href='#') List
+    a#map.button(href='#') Map
+
+  .listing.selected
+    div
+      if listings
+        each item in listings
+          - var url='/bus';
+
+          if item.address
+            - url += '/' + (item.address.prov ? item.address.prov : '-')
+            - url += '/' + (item.address.city ? item.address.city.replace(/[^a-zA-Z0-9]+/g, '-') : '-')
+
+          - url += '/' + (item.name ? item.name.replace(/[^a-zA-Z0-9]+/g, '-') : '-')
+          - url += '/' + item.id + '.html'
+
+          - var clazz = 'empty'
+
+          if item.content.Url.avail
+            - clazz = 'web'
+
+          if item.content.Profile.avail
+            - clazz = 'ad'
+
+          if item.content.Video.avail || item.content.Photo.avail
+            - clazz = 'video'
+
+
+          .link.list(href=url, data-lat=(item.geoCode ? item.geoCode.latitude : null), data-lng=(item.geoCode ? item.geoCode.longitude : null), data-class=clazz)
+            h1 #{item.name}
+
+            p
+              if item.address.street
+                | #{item.address.street},&nbsp;
+
+              if item.address.city
+                | #{item.address.city},&nbsp;
+
+              if item.address.prov
+                | #{item.address.prov}
+
+              |&nbsp;
+
+            if item.isParent
+              .mlocs
+                | Multiple locations
+            else
+              .rating.rating0
+                span
+                span
+                span
+                span
+                span
+                em (0)
+
+            ul
+              if item.content.Url.avail
+                li.web web
+
+              if item.content.Profile.avail
+                li.ad ad
+
+              if item.content.Video.avail || item.content.Photo.avail
+                li.video video
+    .navbox
+      a.navbox-left(href=path + '?sflag=') Previous
+      a.navbox-right(href=path + '?sflag=') Next
+
+  #tabmap.map
+    .wrapMapBtns
+      .searchHere
+        a.button(href='#') Search from here

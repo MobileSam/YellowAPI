@@ -1,0 +1,27 @@
+extend layout
+
+block content
+  .searchBox
+    .business
+      form.inputForm(name='findform', action='/business/submit', method='post')
+        input#latitude(type='hidden', name='latitude')
+        input#longitude(type='hidden', name='longitude')
+        input#mobiCode(type='hidden', name='mobiCode' id="mobiCode)
+
+        .searchwhat.search-field-outer
+          .clearLeftBlock
+            input#what.search-field(maxlength='60', size='100', autocomplete='off', type='text', name='what', value='What? (business or no)')
+            #clear_button_whatwho._clear_button
+
+        .searchwhere.search-field-outer
+          .clearLeftBlock
+            input#where.search-field(maxlength='60', size='100', autocomplete='off', type='text', name='where', value='Where? (city, postal code)')
+            #clear_button_where._clear_button
+          .clearRightBlock
+            a#loclink(href='#', onclick="setLoc('en', true)", title='[ Find my location ]') &nbsp;
+
+        .rightBlock
+          input.ypButton(name='search_button', title='Find.', type='submit', value='Find.', alt='Find')
+
+      #businessSuggestWhat.autosuggest
+      #businessSuggestWhere.autosuggest

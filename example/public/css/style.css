@@ -1,0 +1,4295 @@
+header .logo {
+  background-image: url(http://mobile.yp.ca/images/v2/sprite-yplogos.png);
+  background-repeat: no-repeat;
+}
+
+.button.arrowLeft:after,
+.button.arrowRight:after,
+.navbox .navbox-right:after,
+.navbox .navbox-left:before,
+#loclink:after,
+._clear_button,
+.boxFilter li:after,
+.boxFilter li a:before,
+.shareBar ul li a:before,
+.list ul li,
+.list:before,
+.searchPage .dealsH:after,
+.searchPage .dealsH:before,
+.right-col header nav ul > li > a,
+.overlayPopup .closePopup,
+h3.contentTitle span:before,
+#detail-page h3.contentTitle.dealsIcon + div.content:before,
+.reviewsPage h3.contentTitle.reviewsIcon:before,
+.infoWindow:after,
+.infoWindow > div.icon:after,
+#detail-page a.readReview:after,
+.alert:before,
+#detail-page div.moreDeals:after,
+.currentLoc a,
+#detail-page .businessInfo .content.images a[class*="slider"]:before,
+.reviewsPage a.readReview:after,
+.reviewsPage .oneReview[href*="http"]:after,
+h3.contentTitle + div .content[href]:before,
+#detail-page h3.contentTitle.reserveIcon + div a:after,
+.searchPage [class*="Pin"],
+.displayMapPage [class*="Pin"],
+.searchPage [class*="Pin"]:after,
+.displayMapPage [class*="Pin"]:after,
+[class*="Pin"] a:after,
+[class*="Pin"] a:before {
+  background-image: url(http://mobile.yp.ca/images/v2/sprite-ypg.png);
+  background-repeat: no-repeat;
+}
+
+[class$="Cat"] a:before {
+  background-image: url(http://mobile.yp.ca/images/v2/sprite-cats.png);
+  background-repeat: no-repeat;
+}
+
+nav#bottomMenu li a[id*="yad"]:before,
+#brandFilterInner a.yadNew:after {
+  background-image: url(http://mobile.yp.ca/images/v2/sprite-brandFilter.png);
+  background-repeat: no-repeat;
+}
+
+em.foursquareIcon,
+.locToggle ul li a:before,
+#detail-page h3.contentTitle.reserveIcon + div a:before,
+#detail-page h3.contentTitle.whosIcon + div.content .fsMayor span:before,
+#detail-page h3.contentTitle.whosIcon + div.content .fsCheckin a:after,
+#detail-page #slider ul li a[class^="partner"]:before,
+.showPage .ps-carousel-item.partnerfoursquare:before,
+.partnerfoursquare span:before {
+  background: url(http://mobile.yp.ca/images/v2/sprite-loc.png) no-repeat
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li {
+  background-image: url(http://mobile.yp.ca/images/v2/sprite-cc.png);
+  background-repeat: no-repeat;
+}
+
+.person .searchBox:before,
+.reverse .searchBox:before {
+  background-image: url(http://mobile.yp.ca/images/v2/homeicons.png);
+  background-repeat: no-repeat;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    header .logo {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-yplogos-md.png);
+      background-repeat: no-repeat;
+      background-size: 160px 86px;
+      -webkit-background-size: 160px 86px;
+    }
+
+    .button.arrowLeft:after,
+    .button.arrowRight:after,
+    .navbox .navbox-right:after,
+    .navbox .navbox-left:before,
+    #loclink:after,
+    ._clear_button,
+    .boxFilter li:after,
+    .boxFilter li a:before,
+    .shareBar ul li a:before,
+    .list ul li,
+    .list:before,
+    .searchPage .dealsH:after,
+    .searchPage .dealsH:before,
+    .right-col header nav ul > li > a,
+    .overlayPopup .closePopup,
+    h3.contentTitle span:before,
+    #detail-page h3.contentTitle.dealsIcon + div.content:before,
+    .reviewsPage h3.contentTitle.reviewsIcon:before,
+    .infoWindow:after,
+    .infoWindow > div.icon:after,
+    #detail-page .businessInfo h3:after,
+    #detail-page a.readReview:after,
+    .alert:before,
+    #detail-page div.moreDeals:after,
+    .currentLoc a,
+    #detail-page .businessInfo .content.images a[class*="slider"]:before,
+    .reviewsPage a.readReview:after,
+    .reviewsPage .oneReview[href*="http"]:after,
+    h3.contentTitle + div .content[href]:before,
+    #detail-page h3.contentTitle.reserveIcon + div a:after,
+    .searchPage [class*="Pin"],
+    .displayMapPage [class*="Pin"],
+    .searchPage [class*="Pin"]:after,
+    .displayMapPage [class*="Pin"]:after,
+    [class*="Pin"] a:after,
+    [class*="Pin"] a:before {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-ypg-md.png);
+      background-repeat: no-repeat;
+      background-size: 150px 192px;
+      -webkit-background-size: 150px 192px;
+    }
+
+    [class$="Cat"] a:before {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-cats-md.png);
+      background-repeat: no-repeat;
+      background-size: 316px 97px;
+      -webkit-background-size: 316px 97px;
+    }
+
+    nav#bottomMenu li a[id*="yad"]:before,
+    #brandFilterInner a.yadNew:after {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-brandFilter-hd.png);
+      background-repeat: no-repeat;
+      background-size: 124px 26px;
+      -webkit-background-size: 124px 26px;
+    }
+
+    em.foursquareIcon,
+    .locToggle ul li a:before,
+    #detail-page h3.contentTitle.reserveIcon + div a:before,
+    #detail-page h3.contentTitle.whosIcon + div.content .fsMayor span:before,
+    #detail-page h3.contentTitle.whosIcon + div.content .fsCheckin a:after,
+    #detail-page #slider ul li a[class^="partner"]:before,
+    .showPage .ps-carousel-item.partnerfoursquare:before,
+    .partnerfoursquare span:before {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-loc-hd.png);
+      background-repeat: no-repeat;
+      background-size: 125px 85px;
+      -webkit-background-size: 125px 85px;
+    }
+
+    #detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-cc-hd.png);
+      background-repeat: no-repeat;
+      background-size: 264px 43px;
+      -webkit-background-size: 264px 43px;
+    }
+
+    .person .searchBox:before,
+    .reverse .searchBox:before {
+      background-image: url(http://mobile.yp.ca/images/v2/homeicons-hd.png);
+      background-repeat: no-repeat;
+      background-size: 130px 60px;
+      -webkit-background-size: 130px 60px;
+    }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    header .logo {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-yplogos-hd.png);
+      background-repeat: no-repeat;
+      background-size: 160px 86px;
+    }
+
+    .button.arrowLeft:after,
+    .button.arrowRight:after,
+    .navbox .navbox-right:after,
+    .navbox .navbox-left:before,
+    #loclink:after,
+    ._clear_button,
+    .boxFilter li:after,
+    .boxFilter li a:before,
+    .shareBar ul li a:before,
+    .list ul li,
+    .list:before,
+    .searchPage .dealsH:after,
+    .searchPage .dealsH:before,
+    .right-col header nav ul > li > a,
+    .overlayPopup .closePopup,
+    h3.contentTitle span:before,
+    #detail-page h3.contentTitle.dealsIcon + div.content:before,
+    .reviewsPage h3.contentTitle.reviewsIcon:before,
+    .infoWindow:after,
+    .infoWindow > div.icon:after,
+    #detail-page .businessInfo h3:after,
+    #detail-page a.readReview:after,
+    .alert:before,
+    #detail-page div.moreDeals:after,
+    nav#bottomMenu li a[id*="yad"]:before,
+    .currentLoc a,
+    #detail-page .businessInfo .content.images a[class*="slider"]:before,
+    .reviewsPage a.readReview:after,
+    .reviewsPage .oneReview[href*="http"]:after,
+    h3.contentTitle + div .content[href]:before,
+    #detail-page h3.contentTitle.reserveIcon + div a:after,
+    .searchPage [class*="Pin"],
+    .displayMapPage [class*="Pin"],
+    .searchPage [class*="Pin"]:after,
+    .displayMapPage [class*="Pin"]:after,
+    [class*="Pin"] a:after,
+    [class*="Pin"] a:before {
+      background: url(http://mobile.yp.ca/images/v2/sprite-ypg-hd.png);
+      background-repeat: no-repeat;
+      background-size: 150px 192px;
+    }
+
+    [class$="Cat"] a:before {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-cats-hd.png);
+      background-repeat: no-repeat;
+      background-size: 316px 97px;
+    }
+
+    nav#bottomMenu li a[id*="yad"]:before,
+    #brandFilterInner a.yadNew:after {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-brandFilter-hd.png);
+      background-repeat: no-repeat;
+      background-size: 124px 26px;
+    }
+
+    em.foursquareIcon,
+    .locToggle ul li a:before,
+    #detail-page h3.contentTitle.reserveIcon + div a:before,
+    #detail-page h3.contentTitle.whosIcon + div.content .fsMayor span:before,
+    #detail-page h3.contentTitle.whosIcon + div.content .fsCheckin a:after,
+    #detail-page #slider ul li a[class^="partner"]:before,
+    .showPage .ps-carousel-item.partnerfoursquare:before,
+    .partnerfoursquare span:before {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-loc-hd.png);
+      background-repeat: no-repeat;
+      background-size: 125px 85px;
+    }
+
+    #detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li {
+      background-image: url(http://mobile.yp.ca/images/v2/sprite-cc-hd.png);
+      background-repeat: no-repeat;
+      background-size: 264px 43px;
+    }
+
+    .person .searchBox:before,
+    .reverse .searchBox:before {
+      background-image: url(http://mobile.yp.ca/images/v2/homeicons-hd.png);
+      background-repeat: no-repeat;
+      background-size: 130px 60px;
+      -webkit-background-size: 130px 60px;
+    }
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block
+}
+
+body {
+  line-height: 1
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  width: 100%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #444;
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+  -webkit-text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #444;
+}
+
+body {
+  background: #f0f0f0
+}
+
+input[type="text"] {
+  -webkit-appearance: none;
+  outline: none;
+  -webkit-user-modify: read-write-plaintext-only;
+}
+
+header,
+#detail-page .detailHeader > div:first-child,
+.shareBar ul,
+#detail-page h3.contentTitle.paymentIcon + div ul,
+nav#bottomMenu ul,
+.overlay > div.shopWise ul,
+.locToggle ul,
+#detail-page h3.contentTitle.whosIcon + div.content .fsCount ul,
+.reviewsPage .oneReview,
+h3.contentTitle.dealsIcon + div div.content,
+.indexPage .topDeals > div > a,
+.searchPage .deal,
+.overlay > div.appPresIphone section {
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: justify;
+  -webkit-box-sizing: border-box;
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: justify;
+  -moz-box-sizing: border-box;
+}
+
+header h1,
+.canpages.searchPage nav.tabsSearch,
+.overlay > div.shopWise ul li,
+.ypg .shareBar ul li,
+nav#bottomMenu li,
+.locToggle ul li,
+#detail-page h3.contentTitle.whosIcon + div.content .fsCount ul li {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  text-align: center;
+}
+
+#detail-page .detailHeader .detailHeaderRight,
+#detail-page h3.contentTitle.paymentIcon + div li,
+.reviewsPage .oneReview article,
+h3.contentTitle.dealsIcon + div div.content article,
+.searchPage .deal article,
+.indexPage .topDeals article {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+}
+
+header {
+  height: 33px;
+  padding: 0px;
+  font-size: 11px;
+}
+
+header,
+header ul li,
+.ypg header .showMenu {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#444),to(#242424) );
+  background-image: -moz-linear-gradient(-90deg, #444, #242424);
+  position: relative;
+  text-align: left;
+  min-width: 0;
+}
+
+.searchPage header {
+  border-bottom: 0
+}
+
+header h1 {
+  margin: 0px 65px 0 0;
+  color: #666;
+}
+
+.indexPage header h1,
+.searchPage header h1 {
+  margin-right: 0
+}
+
+.indexPage header h1 {
+  position: absolute;
+  left: 50%;
+  margin-left: -19px;
+  z-index: 202;
+}
+
+.person #btnFilter,
+.deals #btnFilter {
+  visibility: hidden
+}
+
+header .logo {
+  display: inline-block;
+  margin-top: 5px;
+  width: 113px;
+  height: 23px;
+}
+
+.ypg header .logo {
+  position: relative;
+  z-index: 999;
+}
+
+header .logo.yp_en {
+  background-position: -2px -2px
+}
+
+header .logo.yp_fr {
+  background-position: -2px -30px;
+  height: 25px;
+  width: 112px;
+}
+
+header .logo.c411_en,
+header .logo.c411_fr {
+  background-position: -2px -60px;
+  width: 102px;
+  height: 25px;
+}
+
+.indexPage header .logo.yp_en,
+.indexPage header .logo.yp_fr,
+.indexPage header .logo.c411_en,
+.indexPage header .logo.c411_fr {
+  background-position: -121px -1px;
+  margin-top: 4px;
+  width: 38px;
+  height: 41px;
+}
+
+.ypg header > a {
+  min-width: 64px;
+  text-align: center;
+}
+
+#android.ypg header > a {
+  min-width: 0
+}
+
+.ypg header > a,
+.ypg header > section ul li a {
+  color: #e7e7e7;
+  line-height: 34px;
+  font-weight: normal;
+  display: block;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+}
+
+.ypg header > section ul li a:hover,
+.ypg.business header > section ul li.business a,
+.ypg.person header > section ul li.person a,
+.ypg.reverse header > section ul li.reverse a {
+  background: #fff200;
+  color: #816E26;
+  text-shadow: none;
+  -webkit-text-shadow: none;
+}
+
+.ypg.business header > section ul li.person,
+.ypg.person header > section ul li.reverse,
+.ypg.reverse header > .showMenu {
+  box-shadow: none
+}
+
+header > a:hover,
+header > a.active,
+.ypg header.menuOn .showMenu {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#242424),to(#444) );
+  background-image: -moz-linear-gradient(-90deg, #242424, #444);
+}
+
+header > a:first-child {
+  border-right: 1px solid #727272;
+  box-shadow: 1px 0 0 #000;
+}
+
+header > a:last-child,
+.ypg header > section ul li {
+  border-left: 1px solid #727272;
+  box-shadow: -1px 0 0 #000;
+}
+
+.ypg header > section ul li:first-child {
+  border-left: 0;
+  box-shadow: none;
+}
+
+.ypg header > a:first-child:before {
+  content: '';
+  margin-right: 5px;
+  border-right: 4px solid #fff;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+
+.ypg header .showMenu {
+  box-shadow: -1px 0 0 0 #000, -1px 0 0 #555;
+  width: 9.5%;
+  padding: 0;
+}
+
+.ypg header .showMenu:before {
+  content: '';
+  border-top: 4px solid #fff;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  position: relative;
+  left: 50%;
+  margin-left: -4px;
+  top: -1px;
+}
+
+.ypg header.menuOn .showMenu:before {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.ypg header > section {
+  width: 90%;
+  overflow: hidden;
+}
+
+.ypg header.menuOn section {
+  display: block
+}
+
+.ypg header > section ul {
+  -webkit-transition: margin-left 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.ypg header > section ul {
+  width: 100%;
+  margin-left: 100%;
+}
+
+.ypg header.menuOn > section ul {
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+.ypg header > section ul li {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.ypButton {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #333;
+  margin: 0px;
+  outline: none;
+  text-align: center;
+  height: 35px;
+  padding: 1px 13px 0px;
+  font: bold 16px/100% Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 1px 1px 2px #777;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 1px 1px 2px #777;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5a5b5d), to(#000));
+  background: -moz-linear-gradient(top, #5a5b5d 0%, #000 100%);
+}
+
+.ypButton:hover {
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+}
+
+.downloadAppLink a img {
+  width: 100%
+}
+
+:lang(fr) .ypButton {
+  padding: 1px 7px 0px
+}
+
+.appPres .button {
+  padding: 5px 10px;
+  border: 1px solid #9a9a9a;
+  text-align: center;
+  display: inline-block;
+}
+
+.downloadApp a {
+  display: block;
+  font-size: 100%;
+  margin: 5px 5px;
+  font-weight: bold;
+  padding: 0px;
+  line-height: 40px;
+  color: #fff;
+  border: 1px solid #000;
+  outline: none;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#181818));
+}
+
+.indexPage .downloadApp a {
+  margin: 5px 10px
+}
+
+.downloadApp a:hover {
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+}
+
+.downloadApp a.android {
+  border-radius: 2px
+}
+
+.downloadApp a.blackberry {
+  font-size: 100%
+}
+
+.downloadApp a.windows {
+  background: #557eb9;
+  border-radius: 0px;
+  font-weight: normal;
+  text-shadow: none;
+  border: none;
+  height: 39px;
+  line-height: 39px;
+}
+
+.downloadApp a:before {
+  content: '';
+  display: block;
+  float: left;
+  border-right: 1px solid #333;
+  box-shadow: 1px 0 0 0px #000;
+  width: 115px;
+  height: 40px;
+}
+
+@media all and (orientation:landscape) {
+    .downloadApp a {
+      font-size: 100%;
+      text-align: center;
+    }
+
+    .downloadApp a.iphone:before {
+      padding-right: 20px;
+      background-position: 16px 8px;
+    }
+
+    .downloadApp a.android:before {
+      padding-right: 20px;
+      background-position: 16px 8px;
+    }
+
+    .downloadApp a.blackberry:before {
+      padding-right: 20px;
+      background-position: 16px 4px;
+    }
+
+    .downloadApp a.windows:before {
+      height: 39px;
+      line-height: 39px;
+    }
+}
+
+.mainContent1 .personSearch,
+.mainContent.personContent .cats,
+.mainContent.personContent1 .businessSearch,
+.searchBox div.business,
+.searchBox div.person,
+.reverse .searchBox div.business .searchwhere,
+#catSlider > .oneDeal,
+.person .cats,
+.person .topDeals,
+.reverse .categories,
+.reverse .cats,
+.reverse .topDeals {
+  display: none
+}
+
+.searchBox,
+.ypg .tabsSearch,
+.searchPage .grid {
+  padding: 15px 0 8px;
+  border-bottom: 1px solid #e2b500;
+}
+
+.searchPage .grid {
+  padding: 5px 0 5px
+}
+
+.searchBox {
+  padding-top: 6px
+}
+
+.searchBox,
+.searchPage .grid,
+.ypg .tabsSearch,
+#detail-page .merchantActions ul li {
+  background-image: -webkit-gradient(linear,0% 0,0% 100%,from(#FFF200),to(#f5d716));
+  background-image: -moz-linear-gradient(-90deg,#FFF200,#f5d716);
+}
+
+.business .searchBox div.business,
+.person .searchBox div.person,
+.reverse .searchBox div.business {
+  display: block
+}
+
+.person .searchBox,
+.reverse .searchBox {
+  margin-bottom: 150px
+}
+
+.ypg.person .searchBox:before,
+.ypg.reverse .searchBox:before {
+  content: '';
+  display: inline-block;
+  width: 65px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -32px;
+  bottom: -90px;
+  background-position: 0 0;
+}
+
+.ypg.reverse .searchBox:before {
+  background-position: -69px -2px;
+  width: 58px;
+  margin-left: -29px;
+}
+
+.ypg.person .searchBox:after,
+.ypg.reverse .searchBox:after {
+  content: 'Person search';
+  display: inline-block;
+  position: absolute;
+  bottom: -200px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  height: 100px;
+}
+
+.ypg.reverse .searchBox:after {
+  content: 'Enter phone number'
+}
+
+:lang(fr).person.ypg .searchBox:after {
+  content: 'Recherche de personne'
+}
+
+:lang(fr).reverse.ypg .searchBox:after {
+  content: 'Entrez un numÃ©ro de tÃ©lÃ©phone'
+}
+
+.ypg .tabsSearch {
+  padding: 8px 0 5px
+}
+
+.ypg .tabsSearch a {
+  border: 0;
+  height: auto;
+  line-height: normal;
+  font-size: 12px;
+  color: #444;
+  border: 1px solid transparent;
+}
+
+.mainContent div div li,
+.ypg .tabsSearch {
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.mainContent div div li,
+.ypg .tabsSearch a {
+  margin: 0;
+  display: inline-block;
+  font-weight: bold;
+  padding: 4px 0px;
+  font-size: 11px;
+  text-transform: uppercase;
+  width: 48%;
+  color: #816e26;
+}
+
+.mainContent div div ul {
+  margin: 10px 10px 2px
+}
+
+.mainContent div div li {
+  width: 25%
+}
+
+.mainContent div div section li {
+  width: 33%
+}
+
+.business .searchBox li.business,
+.business .searchBox li.active,
+.person .searchBox li.person,
+.reverse .searchBox li.reverse,
+.ypg .tabsSearch a.active {
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid #e2b500;
+  background-image: -webkit-gradient(linear,0% 0,0% 100%,from(#fcf5ab),to(#fbef89));
+  background-image: -moz-linear-gradient(-90deg,#fcf5ab,#fbef89);
+  background: -ms-linear-gradient(left, #fcf5ab 0%,#fbef89 100%);
+  box-shadow: inset 0px 1px 0px #fcf6cf, 0 1px 0 rgba(250, 237, 145, .7);
+}
+
+.searchBox li a {
+  color: #816e26
+}
+
+.business .searchBox li.business a,
+.person .searchBox li.person a,
+.reverse .searchBox li.reverse a,
+.ypg .tabsSearch a.active {
+  color: #52565b
+}
+
+.mainContent div div ul.categories li.active {
+  position: relative
+}
+
+.mainContent div div ul.categories li.active:after,
+.mainContent div div ul.categories li.active:before {
+  content: '';
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mainContent div div ul.categories li.active:before {
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  top: 24px;
+  left: 50%;
+  border: 1px solid #f9e873;
+  border-width: 1px 0 0 1px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(#000000), color-stop(0.5, #000000), color-stop(0.5, transparent), to(transparent));
+  -webkit-background-clip: content;
+  background-clip: content;
+}
+
+.mainContent div div ul.categories li.active:after {
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  background: #f0f0f0;
+  top: 26px;
+  left: 50%;
+  border: 1px solid #e2b500;
+  border-width: 1px 0 0 1px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(#000000), color-stop(0.65, #000000), color-stop(0.65, transparent), to(transparent));
+  -webkit-background-clip: content;
+  background-clip: content;
+  box-shadow: inset 1px 1px 2px rgba(0,0,0,.2);
+}
+
+#android.old .mainContent div div ul.categories li.active::after,
+#android.old .mainContent div div ul.categories li.active::before {
+  display: none
+}
+
+:lang(fr) .categories li a {
+  font-size: 10px
+}
+
+.searchBox {
+  position: relative;
+  z-index: 201;
+}
+
+form.inputForm {
+  margin: 11px 2% 7px
+}
+
+form.inputForm .searchwhat,
+form.inputForm .searchwhere {
+  margin-bottom: 8px
+}
+
+form.inputForm .searchwhere {
+  width: 73%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 0;
+}
+
+form.inputForm .rightBlock {
+  float: right
+}
+
+:lang(fr) form.inputForm .searchwhere {
+  width: 68%
+}
+
+._clear_button {
+  background-position: -44px -1px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  display: none;
+  z-index: 200;
+  width: 19px;
+  height: 19px;
+}
+
+form.inputForm .searchwhere ._clear_button {
+  right: 47px
+}
+
+form.inputForm p.findlocation span {
+  float: left;
+  margin-top: 5px;
+  line-height: 20px;
+  margin-left: 3px;
+}
+
+form.inputForm p.findlocation input {
+  float: right
+}
+
+form.inputForm input[type^="t"],
+.sharePage .search-field-outer input {
+  font-size: 18px;
+  color: #bdc1ca;
+  width: 90%;
+  padding-left: 5px;
+  background-color: transparent;
+  font-weight: normal;
+  margin-bottom: 0px;
+  border: 0;
+  -webkit-appearance: none;
+  -webkit-backface-visibility: hidden;
+  outline: none;
+}
+
+form.inputForm input[type="text"]:focus {
+  color: #252525;
+  outline: none;
+  width: 90%;
+  padding-right: 10%;
+  border: 0;
+  background: transparent;
+  -webkit-backface-visibility: hidden;
+}
+
+form.inputForm .searchwhere input[type="text"] {
+  width: 89%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+form.inputForm .searchwhere input[type="text"]:focus {
+  width: 70%;
+  padding-right: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+:lang(fr) form.inputForm .searchwhere input[type="text"]:focus {
+  width: 60%;
+  padding-right: 21%;
+}
+
+form.inputForm div[id^="search"]:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 6px;
+  top: 8px;
+  z-index: 99;
+}
+
+form.inputForm .searchwhat:before {
+  background-position: 0px -1px
+}
+
+form.inputForm .searchwhere:before {
+  background-position: -22px -1px
+}
+
+.search-field-outer input.search-field {
+  border: 0;
+  padding: 4px 0;
+  position: relative;
+  display: block;
+  background: #fff;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.search-field-outer,
+.errorReport div input,
+.errorReport div textarea,
+.errorReportPage .sharePopup input[type="text"],
+.displayMapPage input[type="text"] {
+  text-align: left;
+  background-color: #fff;
+  position: relative;
+  margin: 0px 0;
+  padding: 1px 1% 1px 1%;
+  border: 1px solid #e2b500;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: inset 0px 2px 2px rgba(0,0,0, .13), 0 1px 0 rgba(250,237,145, .7);
+  -webkit-box-shadow: inset 0px 2px 2px rgba(0,0,0, .13), 0 1px 0 rgba(250,237,145, .7);
+}
+
+.errorReport div input,
+.errorReport div textarea,
+.errorReportPage .sharePopup input[type="text"],
+.sharePage .search-field-outer {
+  border-color: #b8b8b8;
+  -webkit-box-shadow: inset 0px 2px 2px #DBD9D9;
+  box-shadow: inset 0px 2px 2px #DBD9D9;
+}
+
+#loclink {
+  display: block;
+  width: 33px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-left: 1px #e3b80c solid;
+  border-radius: 0 2px 2px 0;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#feeb62),to(#fcdf22) );
+  background: -moz-linear-gradient(top, #feeb62 0%, #fcdf22 100%);
+}
+
+#loclink:after {
+  content: '';
+  background-position: -125px -89px;
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin: 7px 0px 0 0px;
+}
+
+#locmsg {
+  clear: both;
+  display: none;
+  font-size: 12px;
+  color: #252525;
+  padding: 3px 0 0 2px;
+}
+
+form.inputForm p:after,
+form.inputForm:after,
+.navbox:after,
+.detailshead:after,
+.smspage form .inputForm:after,
+.detail .detailsheadPerson:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.list,
+.searchPage .selectedList,
+#detail-page .businessInfo h3 + div,
+#detail-page h3.contentTitle.reviewsIcon + div div.content,
+#detail-page h3.contentTitle.dealsIcon + div div.content,
+#detail-page h3.contentTitle.whosIcon + div.content > div > div,
+#detail-page a.readReview,
+.reviewsPage .oneReview,
+#detail-page div.moreDeals,
+#deal .infoDeal,
+#detail-page #deal .detailHeader.dh2,
+#detail-page #dealsList .content,
+#detail-page .dealExpire,
+.listPage .content,
+.reviewsPage a.readReview,
+.reviewsPage h3.contentTitle {
+  background-color: #f0f0f0
+}
+
+.business .cats {
+  margin: 2% 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.business .cats li {
+  height: 64px;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 33.3%;
+  background: none;
+}
+
+.business .cats li a {
+  color: rgba(0, 0, 0, .9);
+  font-size: 11px;
+  font-weight: 200;
+  text-align: center;
+  display: block;
+  text-transform: none;
+  font-family: 'HelveticaNeue-Light', sans-serif;
+}
+
+[class$="Cat"] a:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  min-height: 31px;
+}
+
+.bankCat a:before {
+  background-position: -33px 0;
+  width: 19px;
+  height: 29px;
+}
+
+.barsCat a:before {
+  background-position: -238px 0;
+  width: 24px;
+  height: 30px;
+}
+
+.beautyCat a:before {
+  background-position: -34px -67px;
+  width: 25px;
+  height: 29px;
+}
+
+.coffeeCat a:before {
+  background-position: -68px 0;
+  width: 23px;
+  height: 28px;
+}
+
+.gasCat a:before {
+  background-position: 0 -68px;
+  width: 25px;
+  height: 28px;
+}
+
+.hardwareCat a:before {
+  background-position: -68px -68px;
+  width: 29px;
+  height: 29px;
+}
+
+.pharmaCat a:before {
+  background-position: -68px -34px;
+  width: 25px;
+  height: 27px;
+}
+
+.pizzaCat a:before {
+  background-position: 0 -34px;
+  width: 30px;
+  height: 27px;
+}
+
+.restCat a:before {
+  background-position: 0 0;
+  width: 31px;
+  height: 28px;
+}
+
+.taxiCat a:before {
+  background-position: -34px -34px;
+  width: 29px;
+  height: 25px;
+}
+
+.mallCat a:before {
+  background-position: -102px 0;
+  width: 23px;
+  height: 29px;
+}
+
+.storesCat a:before {
+  background-position: -136px 0;
+  width: 31px;
+  height: 24px;
+}
+
+.electCat a:before {
+  background-position: -170px 0;
+  width: 32px;
+  height: 31px;
+}
+
+.grocCat a:before {
+  background-position: -102px -34px;
+  width: 30px;
+  height: 29px;
+}
+
+.apparelCat a:before {
+  background-position: -170px -35px;
+  width: 30px;
+  height: 27px;
+}
+
+.kidsCat a:before {
+  background-position: -102px -68px;
+  width: 26px;
+  height: 27px;
+}
+
+.sportCat a:before {
+  background-position: -136px -68px;
+  width: 26px;
+  height: 26px;
+}
+
+.petsCat a:before {
+  background-position: -170px -68px;
+  width: 32px;
+  height: 26px;
+}
+
+.loungesCat a:before {
+  background-position: -238px -68px;
+  width: 23px;
+  height: 25px;
+}
+
+.amusCat a:before {
+  background-position: -136px -34px;
+  width: 30px;
+  height: 33px;
+}
+
+.spaCat a:before {
+  background-position: -238px -34px;
+  width: 35px;
+  height: 25px;
+}
+
+.attractCat a:before {
+  background-position: -204px -68px;
+  width: 29px;
+  height: 28px;
+}
+
+.pitCat a:before {
+  background-position: -203px 0;
+  width: 25px;
+  height: 29px;
+}
+
+.foodCat a:before {
+  background-position: -274px 0;
+  width: 38px;
+  height: 22px;
+}
+
+.hotelCat a:before {
+  background-position: -204px -33px;
+  width: 30px;
+  height: 23px;
+}
+
+.garageCat a:before {
+  background-position: -274px -34px;
+  width: 42px;
+  height: 18px;
+}
+
+.towCat a:before {
+  background-position: -274px -68px;
+  width: 41px;
+  height: 20px;
+}
+
+.travelCat a:before {
+  background-position: -65px -66px
+}
+
+.business .grid #catSlider nav section .topDeals {
+  display: none
+}
+
+.autosuggest {
+  display: none;
+  left: 0px;
+  position: absolute;
+  z-index: 100;
+  background-color: #2c2c2c;
+  width: 100%;
+  top: 100px;
+  max-height: 226px;
+  overflow: auto;
+  padding: 0px;
+}
+
+.autosuggest .asItem {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0 10px;
+  line-height: 37px;
+  margin: 0;
+  text-shadow: 0 1px 0 rgba(0,0,0,.9);
+  border-bottom: 1px solid #383838;
+}
+
+.autosuggest .asItem:last-child {
+  border-bottom: 0
+}
+
+.autosuggest .asDividerMarker {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 0;
+  cursor: default;
+  text-align: center;
+}
+
+.ui-menu-item {
+  position: relative
+}
+
+.ui-menu-item a {
+  display: block;
+  color: #404956;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0 10px 25px;
+}
+
+.ui-menu-item:nth-child(2n+1) {
+  background-color: #f1f1f1
+}
+
+.ui-state-hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pSearch {
+  display: none
+}
+
+.downloadAppLink {
+  margin: 5px 0
+}
+
+.indexPage .topDeals {
+  padding: 5px 10px 0;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.indexPage .topDeals > div > a {
+  -webkit-box-align: center
+}
+
+.indexPage h3.contentTitle {
+  margin-top: 5px
+}
+
+.indexPage h3.contentTitle.dealsIcon + div {
+  padding: 7px;
+  color: #52565b;
+}
+
+.indexPage .topDeals article span {
+  display: block
+}
+
+.indexPage .topDeals article .dealtitle {
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: none;
+  margin-bottom: 5px;
+}
+
+.indexPage .topDeals article .merchantname {
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.indexPage .topDeals img {
+  width: 75px;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 1px solid #DEDEDE;
+  padding: 2px;
+}
+
+.indexPage .topDeals1 article span {
+  background-position: -1px -136px;
+  width: 44px;
+  height: 19px;
+  display: inline-block;
+  float: right;
+}
+
+.indexPage .topDeals article .tag {
+  float: right
+}
+
+.tag {
+  position: relative;
+  padding: 0 10px 0 12px;
+  background: #be1a1a;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  font-size: 11px;
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+}
+
+.tag:before {
+  content: "";
+  float: left;
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 0;
+  height: 0;
+  border-color: transparent #be1a1a transparent transparent;
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+}
+
+.tag:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  float: left;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3);
+  -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3);
+  box-shadow: -1px -1px 2px rgba(0,0,0,.5);
+}
+
+.tag:hover,
+.indexPage .oneDeal > a:hover .tag {
+  background: #a71717
+}
+
+.tag:hover:before,
+.indexPage .oneDeal > a:hover .tag:before {
+  border-color: transparent #a71717 transparent transparent
+}
+
+.searchPage .selectedList,
+.dealersPage .selectedList {
+  padding: 10px 5px;
+  line-height: 14px;
+  border-bottom: 1px solid #b8b8b8;
+  font-size: 13px;
+}
+
+.searchPage .selectedList strong,
+.dealersPage .selectedList h1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.searchPage .selectedList {
+  padding: 10px 20px 10px 55px
+}
+
+:lang(fr).searchPage .selectedList {
+  padding: 10px 20px 10px 65px
+}
+
+.searchPage .dealsH {
+  position: relative
+}
+
+.searchPage .dealsH:before,
+.searchPage .dealsH:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+}
+
+.searchPage .dealsH:before {
+  padding: 0;
+  margin: -10px 0 0 0;
+  left: 3px;
+}
+
+.searchPage .dealsH:after {
+  content: '';
+  background-position: -135px -68px;
+  width: 12px;
+  height: 17px;
+  right: 7px;
+  margin-top: -8px;
+}
+
+.searchPage .dealsH.noArrow:after {
+  display: none
+}
+
+.list {
+  border-top: 1px solid #fff;
+  font-size: 12px;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 10px 5px 7px;
+  position: relative;
+}
+
+.list:first-child {
+  border-top: 1px solid #B4B4B4
+}
+
+.person .list {
+  padding-left: 0px
+}
+
+.person .list > span {
+  float: left;
+  display: inline-block;
+  width: 20px;
+  font-weight: bold;
+  min-height: 30px;
+  text-align: right;
+  margin-right: 7px;
+  margin-top: 2px;
+  opacity: .7;
+}
+
+.person .list h1 {
+  width: 87%
+}
+
+.business .list {
+  min-height: 57px
+}
+
+.list.msp {
+  border-bottom: 1px solid #aecadb;
+  background-color: #e8f6ff;
+}
+
+.list h1,
+.list p {
+  height: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+.list h1 {
+  font-weight: bold;
+  margin-bottom: 3px;
+  width: 94%;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.list.msp h1,
+.list.msp p {
+  width: 80%
+}
+
+.list.msp.direction h1,
+.list.msp.direction p {
+  width: 72%
+}
+
+.showDistance .list h1,
+.showDistance .list p {
+  width: 87%
+}
+
+.showDistance .list.msp h1,
+.showDistance .list.msp p {
+  width: 75%
+}
+
+.list .mspAd {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.list .mspAd span {
+  display: block;
+  color: #97BDD4;
+  text-align: right;
+  font-size: 11px;
+  margin-bottom: 2px;
+}
+
+.list .btnCall,
+.list .btnDirection {
+  color: #323232;
+  padding: 7px 17px;
+  font-weight: bold;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #c4ad4a;
+  border-bottom-color: #a68618;
+  -webkit-box-shadow: 0 1px 0px rgba(255,255,255, .7) inset;
+  box-shadow: 0 1px 0px rgba(255,255,255, .7) inset;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f7ef35),to(#eeca14) );
+  background: -moz-linear-gradient(top, #f7ef35 0%, #eeca14 100%);
+}
+
+.list .btnDirection {
+  padding: 7px 10px
+}
+
+:lang(fr) .list .btnCall {
+  padding: 7px 14px
+}
+
+.list ul {
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+}
+
+.list ul li {
+  display: block;
+  float: right;
+  text-indent: -9999px;
+  margin-left: 7px;
+  position: relative;
+  opacity: .8;
+}
+
+.list ul li.deals,
+.searchPage .dealsH:before {
+  background-position: -78px -112px;
+  width: 44px;
+  height: 19px;
+}
+
+:lang(fr) .list ul li.deals,
+:lang(fr).searchPage .dealsH:before {
+  background-position: -71px -132px;
+  width: 51px;
+}
+
+.list .distance {
+  position: absolute;
+  right: 5px;
+  top: 12px;
+  font-size: 13px;
+}
+
+.list.mloc:before {
+  content: '';
+  background-position: -163px -120px;
+  width: 23px;
+  height: 14px;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  display: inline-block;
+}
+
+.list.mloc.msp:before {
+  display: none
+}
+
+.searchPage .selectedList.backArr:before {
+  content: '';
+  background-position: -56px -94px;
+  width: 13px;
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.results .selectedList.backArr:before {
+  left: 10px;
+  top: 13px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  white-space: nowrap;
+}
+
+.rating > span {
+  display: inline-block;
+  width: 1.1em;
+  color: #999999;
+  font-size: 15px;
+  text-shadow: 0 0px 1px #999999;
+  -webkit-text-shadow: 0 0px 1px #999999;
+}
+
+.rating > span:after {
+  display: inline-block;
+  content: '★';
+}
+
+@font-face {
+  font-family: 'HeydingsCommonIconsRegular';
+  src: url('/css/v2/fonts/heydings_icons-webfont.eot');
+  src: url('/css/v2/fonts/heydings_icons-webfont.eot?#iefix') format('embedded-opentype'), url('/css/v2/fonts/heydings_icons-webfont.woff') format('woff'), url('/css/v2/fonts/heydings_icons-webfont.ttf') format('truetype'), url('/css/v2/fonts/heydings_icons-webfont.svg#HeydingsCommonIconsRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#android .rating > span:after,
+#blackberry .rating > span:after,
+#blackberry .reviewsPage h3.contentTitle.reviewsIcon span:before,
+#android .rating > span:after,
+#blackberry .reviewsPage h3.contentTitle.reviewsIcon span:before {
+  content: 's';
+  font: 17px/17px 'HeydingsCommonIconsRegular', Arial, sans-serif;
+}
+
+#android.old .rating > span:after {
+  content: 'â˜…';
+  font-size: 15px;
+}
+
+#detail-page .rating > span {
+  font-size: 14px
+}
+
+.rating1 span:nth-child(1),
+.rating2 span:nth-child(-n+2),
+.rating3 span:nth-child(-n+3),
+.rating4 span:nth-child(-n+4),
+.rating5 span {
+  color: #fff200;
+  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 -1px 0px rgba(0, 0, 0, 0.1), 1px 0 0 rgba(0, 0, 0, 0.1), -1px 0 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.rating em {
+  font-size: 12px
+}
+
+.navbox {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0 25px;
+}
+
+.navbox a.navbox-right {
+  float: right
+}
+
+.navbox a.navbox-left {
+  float: left
+}
+
+.navbox .navbox-right:after,
+.navbox .navbox-left:before,
+.infoWindow:after {
+  background-position: -135px -68px;
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 17px;
+  position: relative;
+  top: 4px;
+  opacity: .8;
+}
+
+.navbox .navbox-right:after {
+  margin-left: 5px
+}
+
+.navbox .navbox-left:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  top: 2px;
+  margin-right: 6px;
+}
+
+.misBusiness {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 0 10px 3px;
+  border: 1px solid #B4B4B4;
+  border-width: 0 0 1px 0;
+}
+
+.showPage .misBusiness {
+  font-weight: normal;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 13px;
+  padding: 13px 0;
+  border: 0;
+}
+
+.searchPage .downloadAppLink {
+  margin: 15px 0
+}
+
+.slideBar {
+  overflow: hidden
+}
+
+.slideBar h1 {
+  padding: 0 10px 0 22px;
+  line-height: 42px;
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 0 0 1px #1a1a1a;
+  font-weight: bold;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,.5)),to(rgba(0,0,0,.7)) );
+}
+
+.boxFilter.slideBar {
+  height: 0;
+  -webkit-transition: height 0.4s ease-in-out;
+  background: #383838;
+}
+
+.boxFilter.slideBar.openMenu {
+  height: 255px
+}
+
+:lang(fr) .boxFilter.slideBar.openMenu {
+  height: 270px
+}
+
+.boxFilter li {
+  border-bottom: 2px solid #383838;
+  background: #2c2c2c;
+  position: relative;
+}
+
+.boxFilter li a {
+  display: block;
+  padding: 0 20px 0 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.9);
+}
+
+.boxFilter li a:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  top: 13px;
+}
+
+.boxFilter li[data-filter="fto"] a:before {
+  background-position: -1px -88px;
+  width: 16px;
+  height: 11px;
+  top: 15px;
+}
+
+.boxFilter li[data-filter="vdo"] a:before {
+  background-position: -22px -88px;
+  width: 13px;
+  height: 14px;
+}
+
+.boxFilter li[data-filter="rr"] a:before {
+  background-position: -40px -88px;
+  width: 15px;
+  height: 14px;
+}
+
+.boxFilter li[data-filter="dl"] a:before {
+  background-position: -58px -88px;
+  width: 15px;
+  height: 14px;
+}
+
+.boxFilter li:first-child {
+  border-top: 1px solid #000
+}
+
+.boxFilter li:after {
+  content: '';
+  width: 22px;
+  height: 19px;
+  position: absolute;
+  top: 13px;
+  right: 25px;
+  background-position: -78px -88px;
+  opacity: .05;
+}
+
+.boxFilter li.checked:after {
+  opacity: 1
+}
+
+.boxFilter p a {
+  display: block;
+  line-height: 34px;
+  text-align: center;
+  margin: 10px 100px;
+  font-size: 16px;
+  color: #52565b;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8),to(#e6e6e6) );
+  text-shadow: 0 1px 0px #fff;
+  -webkit-text-shadow: 0 1px 0px #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.boxFilter p span {
+  display: block;
+  font-size: 14px;
+  color: #a4a4a4;
+  text-shadow: 0 1px 0 rgba(0,0,0,.9);
+  text-shadow: none;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.ypg #detail-page .shareBar ul:nth-child(2) li {
+  width: 20%
+}
+
+.ypg .shareBar {
+  margin: 0px;
+  padding: 7px 0;
+}
+
+.ypg .person .shareBar {
+  display: none
+}
+
+.ypg .shareBar ul li {
+  width: 25%;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  color: #282828;
+  font-size: 10px;
+}
+
+.ypg .shareBar ul li a {
+  display: block;
+  color: #fff;
+  border: 1px solid #333;
+  margin: 0px 5px 7px;
+  outline: none;
+  padding: 6px 0px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  box-shadow: 0 1px 2px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.5);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4), inset 0px 1px 1px rgba(255,255,255,.5);
+}
+
+.ypg.person.showPage .shareBar ul li a {
+  margin: 0 45px 7px
+}
+
+.ypg .shareBar ul li a:before {
+  content: '';
+  display: block;
+  margin: 0 auto 5px auto;
+  min-height: 33px;
+  position: relative;
+  top: 3px;
+}
+
+.ypg .shareBar ul li a.shareEmail {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6bbbf4), to(#3fa7f0));
+  border-color: #1d8fdd;
+}
+
+.ypg .shareBar ul li a.shareEmail:before {
+  background-position: 0 -158px;
+  width: 36px;
+  height: 24px;
+  top: 7px;
+}
+
+.ypg .shareBar ul li a.shareSms {
+  background: -webkit-gradient(linear, left top, left bottom, from(#7dbd49), to(#56a912));
+  border-color: #629e10;
+}
+
+.ypg .shareBar ul li a.shareSms:before {
+  background-position: -38px -158px;
+  width: 35px;
+  height: 30px;
+  top: 4px;
+}
+
+.ypg .shareBar ul li a.shareFacebook {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6685c4), to(#3b5a99));
+  border-color: #3b5a99;
+}
+
+.ypg .shareBar ul li a.shareFacebook:before {
+  background-position: -76px -157px;
+  width: 18px;
+  height: 33px;
+}
+
+.ypg .shareBar ul li a.shareTwitter {
+  background: -webkit-gradient(linear, left top, left bottom, from(#71dcff), to(#35cdff));
+  border-color: #31c1f0;
+}
+
+.ypg .shareBar ul li a.shareTwitter:before {
+  background-position: -101px -159px;
+  width: 35px;
+  height: 29px;
+  top: 5px;
+}
+
+#brandFilterInner {
+  width: 100%;
+  height: 58px;
+  padding: 0;
+  text-align: center;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#454545),to(#242424) );
+  background-image: -moz-linear-gradient(-90deg, #454545, #242424);
+  filter: progid:DXImageTransform.Microsoft.gradient ( startColorstr='#454545', endColorstr='#242424' );
+  -webkit-transition: height 0.7s;
+  -moz-transition: height 0.7s;
+  transition: height 0.7s;
+  overflow: hidden;
+}
+
+#brandFilterInner.hideMBF,
+.adgear.hideMBF {
+  height: 0px;
+  overflow: hidden;
+}
+
+#brandFilterInner ul {
+  margin: 4px auto
+}
+
+#brandFilterInner ul li {
+  display: inline-block
+}
+
+#brandFilterInner a {
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#brandFilterInner a.yadNew {
+  position: relative
+}
+
+#brandFilterInner a.yadNew:after {
+  background-position: -104px 0;
+  width: 19px;
+  height: 20px;
+  content: '';
+  position: absolute;
+  top: -3px;
+  right: -2px;
+}
+
+#brandFilterInner a img {
+  width: 40px;
+  height: 40px;
+  margin: 2px 8px;
+  background-color: #ffffff;
+  border: #ffffff solid 2px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#detail-page .detailHeader,
+.businessInfo .content {
+  padding: 5px
+}
+
+#detail-page .businessInfo .content.images {
+  position: relative
+}
+
+#detail-page .businessInfo .content.images a[class*="slider"] {
+  position: absolute;
+  display: block;
+  width: 25px;
+  height: 40px;
+  top: 18px;
+  z-index: 10;
+  padding: 0;
+  text-align: center;
+  line-height: 38px;
+  display: none;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(1, rgba(237,237,237, .9)), color-stop(0, rgba(227,227,227, .9)));
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-indent: -9999px;
+}
+
+#detail-page .businessInfo .content.images a[class*="slider"]:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 17px;
+  background-position: -135px -68px;
+  top: 12px;
+  left: 7px;
+  opacity: 1;
+}
+
+#detail-page .businessInfo .content.images a.sliderBack {
+  left: -2px
+}
+
+#detail-page .businessInfo .content.images a.sliderNext {
+  right: -2px
+}
+
+#detail-page .businessInfo .content.images a.sliderBack:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  top: 10px;
+  opacity: .7;
+}
+
+#blackberry #detail-page .businessInfo .content.images a[class*="slider"] {
+  display: block
+}
+
+#detail-page .businessInfo .content.optout {
+  text-align: center;
+  padding: 15px;
+  color: #8e8e8e;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(1, rgb(241,241,241)), color-stop(0, rgb(215,215,215)));
+}
+
+#detail-page {
+  box-shadow: 0 3px 7px rgba(70,70,70, .2) inset;
+  -webkit-box-shadow: 0 3px 7px rgba(70,70,70, .2) inset;
+  padding: 0 1.5%;
+}
+
+.reviewsWrap {
+  padding: 0 1%
+}
+
+.ypg #detail-page .detailHeader > div,
+#detail-page a.readReview,
+.reviewsPage a.readReview,
+#detail-page div.moreDeals,
+#detail-page div.dealExpire,
+.indexPage .topDeals > div,
+#detail-page h3.contentTitle.reserveIcon + div a {
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+  margin: 10px 0;
+  background: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.50, rgb(255,255,255)), color-stop(0.70, rgb(255,255,255)), color-stop(1, rgba(242,242,242,.7)) );
+}
+
+#detail-page .detailHeader img {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #dedede;
+  background-color: #fff;
+  margin-right: 15px;
+}
+
+#detail-page .detailHeader .detailHeaderRight {
+  font-size: 14px
+}
+
+#detail-page .detailHeader .detailHeaderRight h2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 4px;
+  margin-right: 4px;
+  position: relative;
+  top: -1px;
+}
+
+#detail-page .detailHeader .detailHeaderRight p {
+  clear: both;
+  margin: 5px 0;
+}
+
+#detail-page .detailHeader .detailHeaderRight .tel {
+  font-weight: bold;
+  display: block;
+}
+
+#detail-page .merchantActions {
+  text-align: center;
+  margin: 0 0 10px 0px;
+}
+
+#detail-page .businessInfo .merchantActions {
+  margin-top: 10px
+}
+
+#detail-page .merchantActions li {
+  font-weight: bold;
+  display: inline-block;
+  width: 32%;
+  border: 1px solid #c4ad4a;
+  border-bottom-color: #a68618;
+  border-right-width: 0;
+  -webkit-box-shadow: 0 1px 0px rgba(255,255,255, .7) inset;
+  box-shadow: 0 1px 0px rgba(255,255,255, .7) inset;
+}
+
+#detail-page .merchantActions li:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#detail-page .merchantActions li:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-right-width: 1px;
+}
+
+#detail-page .merchantActions li a {
+  display: block;
+  line-height: 33px;
+}
+
+#detail-page .merchantActions li:nth-child(2) a {
+  margin: 0px;
+  border-width: 0 1px 0 1px;
+}
+
+#detail-page .promoText {
+  padding: 10px 10px 10px 5px;
+  line-height: 15px;
+}
+
+#detail-page .businessInfo {
+  padding-top: 0
+}
+
+h3.contentTitle {
+  clear: both;
+  margin: 20px 5px 10px 0;
+}
+
+h3.contentTitle,
+.reviewsPage h3.contentTitle.tripAdvisor span {
+  text-transform: uppercase;
+  text-align: left;
+  color: #616569;
+  font-size: 14px;
+  padding: 0px;
+  line-height: 12px;
+  position: relative;
+  border-bottom: 1px solid #a0a1a1;
+  font-family: "Helvetica-Light",Helvetica,Arial,sans-serif;
+  text-shadow: 0 1px 0 rgba(255,255,255, .7);
+  box-shadow: 0 1px 0 rgba(255,255,255, .7);
+}
+
+h3.contentTitle span {
+  background: #f0f0f0;
+  display: inline-block;
+  padding: 0 5px 0 30px;
+  position: relative;
+  top: 2px;
+}
+
+h3.contentTitle span:before {
+  content: '';
+  display: block;
+  position: absolute;
+  margin: 0;
+  left: 7px;
+  top: -1px;
+}
+
+h3.contentTitle span.noIcon {
+  padding: 0 5px 0
+}
+
+h3.contentTitle.openHoursIcon span:before {
+  background-position: -1px -49px;
+  width: 16px;
+  height: 16px;
+  left: 8px;
+}
+
+h3.contentTitle.reviewsIcon span:before {
+  background-position: -42px -49px;
+  width: 15px;
+  height: 15px;
+  top: -2px;
+}
+
+h3.contentTitle.multimediaIcon span:before {
+  background-position: -60px -48px;
+  width: 20px;
+  height: 17px;
+  top: -3px;
+  left: 5px;
+}
+
+h3.contentTitle.paymentIcon span:before {
+  background-position: -127px -50px;
+  width: 21px;
+  height: 14px;
+  left: 4px;
+  top: 0px;
+}
+
+h3.contentTitle.brandsCarriedIcon span:before {
+  background-position: -114px -25px;
+  width: 13px;
+  height: 18px;
+  left: 8px;
+  top: -3px;
+}
+
+h3.contentTitle.productsServiceIcon span:before,
+#deal h3.contentTitle span:before {
+  background-position: -85px -49px;
+  width: 16px;
+  height: 17px;
+  top: -2px;
+}
+
+h3.contentTitle.languagesIcon span:before {
+  background-position: -63px -70px;
+  width: 14px;
+  height: 13px;
+  left: 8px;
+}
+
+h3.contentTitle.gettingThereIcon span:before {
+  background-position: -1px -68px;
+  width: 14px;
+  height: 18px;
+  left: 9px;
+  top: -2px;
+}
+
+h3.contentTitle.emailIcon span:before {
+  background-position: -41px -71px;
+  width: 18px;
+  height: 13px;
+  top: 0px;
+}
+
+#deal h3.contentTitle.shareIcon span:before,
+h3.contentTitle.shareIcon span:before {
+  background-position: -105px -68px;
+  width: 24px;
+  height: 18px;
+  left: 3px;
+}
+
+h3.contentTitle.cuisineIcon span:before {
+  background-position: -20px -69px;
+  width: 17px;
+  height: 16px;
+}
+
+h3.contentTitle.whosIcon span:before {
+  background-position: -131px -27px;
+  width: 19px;
+  height: 14px;
+}
+
+h3.contentTitle.reserveIcon span:before {
+  background-position: -106px -49px;
+  width: 16px;
+  height: 15px;
+}
+
+h3.contentTitle.dealsIcon span:before {
+  background-position: -21px -49px;
+  width: 16px;
+  height: 16px;
+}
+
+h3.contentTitle.specialitiesIcon span:before {
+  background-position: -83px -70px;
+  width: 18px;
+  height: 14px;
+}
+
+.reviewsPage h3.contentTitle.reviewsIcon span:before {
+  content: 'â˜…';
+  background: none;
+  top: 0px;
+  font-size: 16px;
+}
+
+.reviewsPage h3.contentTitle {
+  color: #444;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+  -webkit-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+}
+
+.reviewsPage h3.contentTitle.tripAdvisor {
+  border-bottom: 0;
+  box-shadow: none;
+  padding: 0 0 0 5px;
+  margin: 5px 0;
+}
+
+.reviewsPage h3.contentTitle.tripAdvisor img {
+  position: relative;
+  top: 4px;
+  margin-right: 0px;
+}
+
+.reviewsPage h3.contentTitle.tripAdvisor em {
+  font-size: 12px
+}
+
+.reviewsPage h3.contentTitle.tripAdvisor span {
+  top: -1px
+}
+
+.reviewsPage h3.contentTitle.tripAdvisor span strong {
+  position: relative;
+  top: 2px;
+  font-size: 13px;
+  margin-right: 6px;
+  background: #f0f0f0;
+}
+
+.reviewsPage .oneReview em img {
+  position: relative;
+  top: 2px;
+}
+
+h3.contentTitle.dealsIcon + div div.content {
+  -webkit-box-align: center
+}
+
+#detail-page .businessInfo h3 + div {
+  padding: 5px;
+  font-size: 13px;
+}
+
+#detail-page .businessInfo h3 + div a {
+  color: #252525
+}
+
+#detail-page .businessInfo h3 + div ul {
+  display: block;
+  padding-left: 0px;
+}
+
+.businessInfo h3 + div ul {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
+}
+
+.businessInfo h3 + div li {
+  list-style: disc;
+  margin-bottom: 3px;
+  line-height: 16px;
+  margin-left: 20px;
+  column-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+}
+
+#detail-page h3.contentTitle.gettingThereIcon + div ul,
+#detail-page h3.contentTitle.languagesIcon + div ul,
+h3.contentTitle.dealsIcon + div ul,
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+
+#detail-page h3.contentTitle.openHoursIcon + div,
+#detail-page h3.contentTitle.productsServiceIcon1 + div {
+  padding: 0
+}
+
+#detail-page h3.contentTitle.languagesIcon + div li {
+  width: auto;
+  margin-right: 20px;
+}
+
+#detail-page h3.contentTitle.gettingThereIcon + div li {
+  float: none
+}
+
+#detail-page h3.contentTitle.gettingThereIcon + div .mapWrap {
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.person #detail-page h3.contentTitle.gettingThereIcon + div .mapWrap {
+  margin-top: 0
+}
+
+#detail-page h3.contentTitle.gettingThereIcon + div .mapWrap img {
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  z-index: 100;
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li {
+  list-style: none;
+  display: inline-block;
+  float: none;
+  width: 43px;
+  height: 43px;
+  margin-right: 4px;
+  margin-left: 0;
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li.visa {
+  background-position: 0px 0
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li.masterCard {
+  background-position: -44px 0
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li.amex {
+  background-position: -88px 0
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li.cash {
+  background-position: -132px 0
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li.giftCertificat {
+  background-position: -176px 0
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li.interac {
+  background-position: -220px 0
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul:nth-child(2) li {
+  float: none
+}
+
+#detail-page h3.contentTitle.reviewsIcon + div,
+.reviewsPage .oneReview {
+  font-size: 13px
+}
+
+.reviewsPage .oneReview {
+  border-bottom: 1px solid #ddd
+}
+
+.reviewsPage .oneReview:last-child {
+  border-bottom: 0
+}
+
+#detail-page h3.contentTitle.reviewsIcon + div h4,
+.reviewsPage .oneReview h4 {
+  font-weight: bold;
+  font-size: 14px;
+  text-shadow: 0 1px 1px #fff;
+  -webkit-text-shadow: 0 1px 1px #fff;
+}
+
+#detail-page h3.contentTitle.reviewsIcon + div p,
+.reviewsPage .oneReview p {
+  margin: 5px 0
+}
+
+#detail-page a.readReview,
+.reviewsPage a.readReview,
+#detail-page div.moreDeals,
+#detail-page div.dealExpire,
+#detail-page h3.contentTitle.reviewsIcon + div > h4 {
+  display: block;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 14px;
+  padding: 6px;
+  margin: 0 5px 20px;
+}
+
+#detail-page div.dealExpire {
+  font-size: 12px
+}
+
+#detail-page a.readReview:after,
+#detail-page div.moreDeals:after,
+.reviewsPage a.readReview:after,
+#detail-page h3.contentTitle.reserveIcon + div a:after {
+  content: " ";
+  display: inline-block;
+  background-position: -136px -68px;
+  float: right;
+  width: 12px;
+  height: 17px;
+  position: relative;
+  top: 6px;
+}
+
+#detail-page #slider ul {
+  list-style: none
+}
+
+#detail-page #slider ul,
+#detail-page #slider ul li {
+  height: 74px;
+  width: 77px;
+  overflow: hidden;
+}
+
+#detail-page #slider ul li a {
+  display: block;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #b4b4b4;
+  padding: 2px 1px;
+  text-align: center;
+  margin-right: 5px;
+  position: relative;
+}
+
+#detail-page #slider ul li a.video:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(http://mobile.yp.ca/images/v2/ico-video.png);
+  position: absolute;
+  z-index: 10;
+  background-size: 60px;
+  -webkit-background-size: 60px 60px;
+}
+
+#detail-page #slider ul li a img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.showPage .ps-carousel-item.partnerfoursquare:before,
+.partnerfoursquare span:before {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.showPage .ps-carousel-item.partnerfoursquare:before,
+.partnerfoursquare span:before {
+  background-position: 0 0;
+  width: 88px;
+  height: 24px;
+}
+
+.reviewsPage .oneReview {
+  padding: 5px 5px 10px
+}
+
+#detail-page .oneReview {
+  padding: 0px 0px 5px
+}
+
+.reviewsPage .oneReview p {
+  margin-bottom: 10px;
+  line-height: 16px;
+}
+
+.trip_advisor em img {
+  position: relative;
+  top: 3px;
+}
+
+em.foursquareIcon {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.partnerfoursquare span {
+  position: relative
+}
+
+.partnerfoursquare span:before {
+  bottom: 0;
+  right: 5px;
+}
+
+em.foursquareIcon,
+.locToggle ul li.foursquare a:before,
+#detail-page #slider ul li a.partnerfoursquare:before,
+.locToggle ul li.foursquare a:before,
+.partnerfoursquare span:before {
+  background-position: 0 -43px;
+  width: 19px;
+  height: 19px;
+}
+
+#detail-page #slider ul li a.partnertrip_advisor:before,
+.locToggle ul li.trip_advisor a:before {
+  background-position: -28px -25px;
+  width: 26px;
+  height: 15px;
+}
+
+#detail-page #slider ul li a[class^="partner"]:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#detail-page h3.contentTitle.dealsIcon + div img[alt="logo"],
+.deal img[alt="logo"],
+#detail-page #dealsList .content > img,
+.reviewsPage .oneReview > img {
+  margin-right: 10px;
+  margin-top: 3px;
+  border: 1px solid #C5C5C5;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  width: 44px;
+  background-color: #fff;
+  padding: 3px;
+}
+
+.reviewsPage .oneReview > article {
+  padding-top: 1px
+}
+
+.reviewsPage .oneReview > article span {
+  line-height: 17px;
+  font-size: 12px;
+}
+
+.searchPage .deal article {
+  padding-top: 5px
+}
+
+#detail-page h3.contentTitle.dealsIcon + div,
+.listPage .deal,
+#detail-page #dealsList .content {
+  position: relative
+}
+
+#detail-page h3.contentTitle.dealsIcon + div {
+  padding: 0
+}
+
+h3.contentTitle.dealsIcon + div ul {
+  padding: 0;
+  margin: 5px 0;
+}
+
+h3.contentTitle.dealsIcon + div ul li {
+  list-style: none;
+  float: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 13px;
+  display: inline-block;
+  width: auto;
+  min-width: 40%;
+}
+
+h3.contentTitle.dealsIcon + div ul li:nth-child(2) {
+  text-align: right;
+  font-weight: bold;
+}
+
+.listPage .content {
+  border-bottom: 1px solid #ddd
+}
+
+.listPage .content .deal {
+  padding: 7px 5px
+}
+
+.listPage .content .deal h4 {
+  margin-top: 2px
+}
+
+.listPage .content .deal ul {
+  margin: 20px 0 0 0
+}
+
+h3.contentTitle.dealsIcon + div,
+#detail-page h3.contentTitle.reviewsIcon + div,
+#detail-page h3.contentTitle.dealsIcon + div {
+  padding: 0
+}
+
+h3.contentTitle.dealsIcon + div .content,
+h3.contentTitle.reviewsIcon + div .content,
+h3.contentTitle.dealsIcon + div .content {
+  padding: 5px;
+  font-size: 13px;
+}
+
+#detail-page h3.contentTitle.reviewsIcon + div > h4 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(56, 56, 56, .4)), to(rgba(40, 40, 40, .4)) );
+  padding: 0 5px 0;
+  line-height: 26px;
+  color: white;
+  text-shadow: 0 1px 0 #333;
+  -webkit-text-shadow: 0 1px 0 #333;
+  font-weight: normal;
+}
+
+h3.contentTitle.dealsIcon + div.content h4,
+.deal h4,
+#detail-page #dealsList .content h4 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#detail-page #dealsList .content h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#detail-page h3.contentTitle.dealsIcon + div .merchantName,
+.deal .merchantName {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+#detail-page div.moreDeals {
+  position: relative
+}
+
+#detail-page div.moreDeals span {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+  font-weight: bold;
+  color: #828282;
+}
+
+#detail-page h3.contentTitle.reserveIcon + div {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#detail-page h3.contentTitle.reserveIcon + div a {
+  color: #9d0000;
+  display: block;
+  margin: 6px 0;
+  line-height: 22px;
+}
+
+#detail-page h3.contentTitle.reserveIcon + div a:before {
+  background-position: 0 -26px;
+  width: 26px;
+  height: 14px;
+  content: '';
+  display: inline-block;
+  margin-right: 7px;
+  position: relative;
+  top: 2px;
+}
+
+#detail-page h3.contentTitle.reserveIcon + div a:after {
+  top: 3px
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content {
+  padding: 0
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content > div > div {
+  padding: 10px 5px;
+  border-bottom: 1px solid #aaa;
+  border-top: 1px solid #fff;
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content > div > div:first-child {
+  border-top: 0
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content > div > div:last-child {
+  border-bottom: 0
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsMayor img {
+  width: 20%;
+  padding: 2px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsMayor span {
+  width: 68%
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsMayor img,
+#detail-page h3.contentTitle.whosIcon + div.content .fsMayor span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsMayor span {
+  position: relative;
+  padding-left: 20px;
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsMayor span:before {
+  background-position: -56px -26px;
+  width: 15px;
+  height: 11px;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsMayor strong {
+  font-weight: bold
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsCount li {
+  text-transform: uppercase;
+  width: 50%;
+  font-weight: bold;
+  margin: 0;
+  font-size: 15px;
+  list-style: none;
+  padding: 0;
+  float: none;
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsCount li:first-child {
+  border-right: 1px solid #fff
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsCount li:nth-child(2) {
+  border-left: 1px solid #b4b4b4
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsCount li span {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 11px;
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsCheckin {
+  text-align: center
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsCheckin a {
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #676767;
+  line-height: 33px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 4px solid #bfc1c1;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  box-shadow: 0 0px 0px 1px #a4a6a6, 0 0 0px 1px #afafaf inset;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb),to(#c7c7c7) );
+  background: -moz-linear-gradient(top, #ebebeb 0%, #c7c7c7 100%);
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsCheckin a:after {
+  background-position: 0 0;
+  width: 88px;
+  height: 24px;
+  content: '';
+  margin-left: 8px;
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
+
+.reviewsPage .oneReview[href*="http"],
+h3.contentTitle + div .content[href] {
+  position: relative;
+  padding-right: 20px;
+}
+
+.reviewsPage .oneReview[href*="http"]:after,
+h3.contentTitle + div .content[href]:before {
+  background-position: -205px -195px;
+  opacity: .5;
+  width: 11px;
+  height: 19px;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 3px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+#android.old.reviewsPage .oneReview[href*="http"]:after,
+#android.old h3.contentTitle + div .content[href]:before {
+  display: none
+}
+
+.openHours {
+  width: 100%;
+  padding: 7px 0;
+}
+
+.openHours td {
+  padding: 4px 5px
+}
+
+.openHours td:first-child {
+  font-weight: normal
+}
+
+.openHours .right {
+  text-align: right
+}
+
+.openHours tr.openow td {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-width: 1px 0 1px 0;
+  border-top-color: #cbcbcb;
+}
+
+.openHours tr.openow td {
+  position: relative
+}
+
+.openHours tr.openow td:last-child:before {
+  content: 'Open now';
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "HelveticaNeue-CondensedBold", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 3px;
+  position: relative;
+  display: inline;
+  margin: 0;
+  padding: 3px 4px;
+  left: -27px;
+  top: -2px;
+  width: 54px;
+  height: 18px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9fc51a),to(#84a316) );
+  background: -moz-linear-gradient(top, #9fc51a 0%, #84a316 100%);
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+}
+
+:lang(fr) .openHours tr.openow td:last-child:before {
+  content: 'Ouvert';
+  padding: 3px 8px;
+}
+
+#non_ad {
+  background-color: #EBF9FF;
+  font-size: 13px;
+  margin: 7px 0px;
+}
+
+#non_ad > h1 {
+  background-color: #333;
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0 5px;
+  line-height: 20px;
+  text-shadow: none;
+  -webkit-text-shadow: none;
+}
+
+.locToggle {
+  padding: 3% 5%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(3%,#cbcbcb), color-stop(100%,#f1f1f1));
+}
+
+.locToggle ul {
+  border: 1px solid #b9b9b9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0f0f0),to(#e0e0e0) );
+  box-shadow: 0 1px 1px rgba(255,255,255,.7);
+}
+
+.locToggle ul li {
+  width: 30%;
+  line-height: 30px;
+  border-right: 1px solid #b9b9b9;
+  box-shadow: 0 1px 1px rgba(255,255,255,.7) inset;
+}
+
+.locToggle ul li:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.locToggle ul li:last-child {
+  border-right: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.locToggle ul li a {
+  display: block
+}
+
+.locToggle ul li a:before {
+  content: '';
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+}
+
+.locToggle ul li.yp a:before {
+  background-position: -74px -24px;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+}
+
+.locToggle ul li.foursquare a:before {
+  top: 6px
+}
+
+.locToggle ul li.trip_advisor a:before {
+  top: 4px
+}
+
+.locToggle ul li.active {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b3b3b3),to(#d2d2d2) );
+  box-shadow: 1px 4px 8px -1px #333 inset;
+}
+
+.infoWindow {
+  padding: 7px 10px;
+  margin-bottom: 8px;
+  width: 250px;
+  color: #ffffff;
+  border-spacing: 2px;
+  position: relative;
+  z-index: 101;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(112,112, 112,.9) ), color-stop(0.52, rgba(57, 57, 57,.9) ) );
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.infoWindow:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: rgba(57, 57, 57,.9);
+  border-width: 10px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.infoWindow:after {
+  position: absolute;
+  right: 12px;
+  top: 15px;
+}
+
+.infoWindow h1,
+.infoWindow p {
+  margin-left: 5px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-text-shadow: 0 1px 1px #333;
+  text-shadow: 0 1px 1px #333;
+}
+
+.infoWindow h1 {
+  margin: 0px 0 3px 0;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+.infoWindow .smallIcon {
+  vertical-align: middle
+}
+
+.infoWindow .smallIcon img {
+  vertical-align: middle;
+  background-color: #fff000;
+  height: 20px;
+  padding: 2px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 4px;
+}
+
+.infoWindow p {
+  margin: 0;
+  font-size: 12px;
+  height: 1.3em;
+  -webkit-text-shadow: 0 0px 1px #000;
+  text-shadow: 0 0px 1px #000;
+}
+
+.infoWindow > div.icon {
+  position: relative
+}
+
+.infoWindow > div.icon:before {
+  width: 26px;
+  height: 26px;
+  content: '';
+  display: inline-block;
+  float: left;
+  margin: 0px 10px 0 0;
+  top: 3px;
+  position: relative;
+}
+
+.ypg .infoWindow > div.icon:before {
+  border-radius: 13px;
+  box-shadow: none;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff200),to(#f5cf16) );
+}
+
+.infoWindow > div.icon:after {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.ypg .infoWindow > div.icon.person:before,
+.ypg .infoWindow > div.icon.person:after,
+.infoWindow > div.icon.msp.empty:before,
+.infoWindow > div.icon.msp.empty:after {
+  display: none
+}
+
+.searchPage .dealPin.mapBubble,
+.dealersPage .dealPin.mapBubble {
+  background-color: #fff;
+  overflow: visible !important;
+  border: 1px solid #99aabe;
+  padding: 2px 2px 2px 1px;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 1px 3px 7px #666;
+  -webkit-box-shadow: 1px 3px 7px #666;
+}
+
+.searchPage .dealPin.mapBubble:after,
+.searchPage .dealPin.mapBubble:before,
+.dealersPage .dealPin.mapBubble:after,
+.dealersPage .dealPin.mapBubble:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.searchPage .dealPin.mapBubble:after,
+.dealersPage .dealPin.mapBubble:after {
+  border-top-color: #fff;
+  border-width: 6px;
+  left: 50%;
+  margin-left: -6px;
+}
+
+.searchPage .dealPin.mapBubble:before,
+.dealersPage .dealPin.mapBubble:before {
+  border-top-color: #99aabe;
+  border-width: 7px;
+  left: 50%;
+  margin-left: -7px;
+}
+
+.dealersPage .infoWindow div.icon.mapBubble.deal:before,
+.dealersPage .infoWindow div.icon.mapBubble.deal:after {
+  display: none !important
+}
+
+.getDirection,
+.searchHere {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  z-index: 50;
+  top: 2%;
+}
+
+.searchHere {
+  display: none
+}
+
+.wrapMapBtns,
+.appPres .button {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8),to(#d7e1e7) );
+  border-radius: 3px;
+}
+
+.wrapMapBtns {
+  position: absolute;
+  bottom: 10px;
+  z-index: 50;
+  border: 1px solid #9a9a9a;
+  width: 52%;
+  left: 48%;
+  margin-left: -24%;
+  text-align: center;
+}
+
+.wrapMapBtns > div {
+  display: inline-block;
+  box-shadow: 0px 1px 0px #e0e9ec inset;
+  line-height: 28px;
+}
+
+.wrapMapBtns .searchHere,
+.wrapMapBtns .getDirection {
+  width: 80%;
+  position: static;
+  font-size: 14px;
+}
+
+:lang(fr) .wrapMapBtns .searchHere,
+:lang(fr) .wrapMapBtns .getDirection {
+  font-size: 12px
+}
+
+.wrapMapBtns .getDirection {
+  width: 78%
+}
+
+.wrapMapBtns .currentLoc {
+  width: 19%
+}
+
+searchHere a,
+.currentLoc a,
+.currentLoc a:hover,
+.getDirection a {
+  color: #52565b;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+  -webkit-text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+}
+
+.wrapMapBtns .currentLoc {
+  border-left: 1px solid #9a9a9a;
+  line-height: 30px;
+}
+
+.wrapMapBtns .currentLoc a {
+  position: relative;
+  display: inline-block;
+  background-position: -2px -2px;
+  width: 19px;
+  height: 19px;
+  top: 7px;
+}
+
+.map,
+.listing {
+  display: none;
+  position: relative;
+}
+
+.dealersPage .map,
+.map.selected,
+.listing.selected {
+  display: block
+}
+
+.ypg [class*="Pin"],
+.mapWrap a:before {
+  background-position: -1px -110px
+}
+
+.ypg.searchPage [class*="Pin"]:after,
+.ypg.displayMapPage [class*="Pin"]:after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.ypg.searchPage [class*="Pin"],
+.ypg.displayMapPage [class*="Pin"],
+.mapWrap a:before {
+  width: 30px !important;
+  height: 44px !important;
+}
+
+.ypg .msp[class*="Pin"] {
+  background-position: -35px -110px
+}
+
+.mapWrap a:before {
+  content: '';
+  z-index: 101;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  margin: -44px 0 0 -15px;
+}
+
+.mapWrap a:after {
+  top: 50%;
+  left: 50%;
+  content: '';
+  z-index: 102;
+  position: absolute;
+}
+
+.mapWrap.emptyPin a:after,
+.ypg.searchPage .emptyPin:after,
+.ypg.displayMapPage .emptyPin:after {
+  width: 9px;
+  height: 9px;
+  border-radius: 5px;
+  border: 1px solid #3b3b3b;
+  position: absolute;
+  display: inline-block;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5e5e5e),to(#383838) );
+  margin: 1px 0 0 1px;
+}
+
+.mapWrap.emptyPin a:after {
+  margin: -35px 0 0 -6px;
+  z-index: 102;
+}
+
+.infoWindow > div.person.icon:after {
+  background-position: -113px -153px
+}
+
+.mapWrap.silhouettePin a:after {
+  background-position: -22px -2px;
+  width: 16px;
+  height: 16px;
+  margin: -38px 0 0 -8px;
+}
+
+.list ul li.video,
+.searchPage .videoPin:after,
+.displayMapPage .videoPin:after,
+.mapWrap.videoPin a:after,
+.ypg .infoWindow > div.video.icon:after {
+  background-position: -67px -1px;
+  width: 17px;
+  height: 14px;
+  margin: -1px 0px 0 -2px;
+}
+
+.mapWrap.videoPin a:after {
+  margin: -37px 0 0 -10px
+}
+
+.ypg .infoWindow > div.video.icon:after {
+  margin: 9px 0 0 4px
+}
+
+.list ul li.web,
+.searchPage .webPin:after,
+.displayMapPage .webPin:after,
+.mapWrap.webPin a:after,
+.ypg .infoWindow > div.web.icon:after {
+  background-position: -89px -1px;
+  width: 16px;
+  height: 15px;
+  margin: -1px 0px 0 -1px;
+}
+
+.mapWrap.webPin a:after {
+  margin: -37px 0 0 -8px
+}
+
+.list ul li.web {
+  margin: 0 0 0 7px
+}
+
+.ypg .infoWindow > div.web.icon:after {
+  margin: 8px 0 0 5px
+}
+
+.list ul li.ad,
+.searchPage .adPin:after,
+.displayMapPage .adPin:after,
+.mapWrap.adPin a:after,
+.ypg .infoWindow > div.ad.icon:after {
+  background-position: -111px -1px;
+  width: 14px;
+  height: 12px;
+}
+
+.list ul li.ad {
+  top: 1px
+}
+
+.mapWrap.adPin a:after {
+  margin: -36px 0 0 -7px
+}
+
+.ypg .infoWindow > div.icon.ad:after {
+  margin: 10px 0 0 6px
+}
+
+.searchPage .dealsPin:after,
+.displayMapPage .dealsPin:after,
+.mapWrap.dealsPin a:after,
+.ypg .infoWindow > div.deals.icon:after,
+.ypg .infoWindow > div.deal.icon:after {
+  background-position: -131px -1px;
+  width: 15px;
+  height: 14px;
+  margin: 0px 0px 0 -1px;
+}
+
+.mapWrap.dealsPin a:after {
+  margin: -36px 0 0 -8px
+}
+
+.ypg .infoWindow > div.deals.icon:after,
+.ypg .infoWindow > div.deal.icon:after {
+  margin: 9px 0 0 5px
+}
+
+.searchPage [class*="Pin"] img,
+.displayMapPage [class*="Pin"] img,
+.displayMapPage .landing,
+.displayMapPage .schedule {
+  display: none !important
+}
+
+.searchPage .dealPin img,
+.dealersPage .dealPin img {
+  max-width: 34px
+}
+
+.personPin div {
+  color: #414243 !important;
+  left: 0px !important;
+  top: 7px !important;
+}
+
+.ypg.searchPage .mePin,
+.ypg.displayMapPage .mePin {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#97e5fa),to(#1277b1) );
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  width: 20px !important;
+  height: 20px !important;
+  border: 1px solid #72bcd5;
+}
+
+.ypg.searchPage .mePin:after,
+.ypg.displayMapPage .mePin:after {
+  position: absolute;
+  background: #f2f2f2;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border: 1px solid #58a1c1;
+  top: 4px !important;
+  left: 4px !important;
+}
+
+.mePin img {
+  display: none !important
+}
+
+.displayMapPage .tabsSearch {
+  text-align: center
+}
+
+.displayMapPage .tabsSearch a.button {
+  width: 19%
+}
+
+:lang(fr).displayMapPage .tabsSearch a.button {
+  width: 25%
+}
+
+.MicrosoftMap .OverlaysTL {
+  left: -25px;
+  top: 10px;
+}
+
+.MicrosoftMap .NavBar_zoomControlContainer {
+  left: 28px;
+  top: 45px;
+}
+
+.MicrosoftMap #PoweredByLogo {
+  opacity: .5
+}
+
+.MicrosoftMap .NavBar_top,
+.MicrosoftMap .NavBar_zoomDrop,
+.MicrosoftMap .NavBar_button:hover,
+.MicrosoftMap .OverlaysTL,
+.NavBar_compassControlContainer,
+.NavBar_zoomControlContainer {
+  background: transparent !important
+}
+
+.NavBar_compassControlContainer {
+  top: 10px
+}
+
+.deal h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  white-space: nowrap;
+  font-weight: bold;
+  height: 15px;
+  margin-top: 2px;
+}
+
+#detail-page #deal .detailHeader {
+  padding: 5px
+}
+
+#detail-page #deal .detailHeader:nth-child(1) img {
+  width: 80px;
+  height: 80px;
+}
+
+#deal .priceTable {
+  margin: 0 5px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff),to(#e6e6e6) );
+}
+
+#deal .priceTable table {
+  border-spacing: 5px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#deal .priceTable table td,
+#deal .priceTable table th {
+  padding: 6px 3px;
+  text-align: center;
+  font-size: 11px;
+}
+
+#deal .priceTable table td {
+  color: #ADADAD;
+  font-size: 10px;
+}
+
+#deal .priceTable table th {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#deal .priceTable table th.original {
+  text-decoration: line-through
+}
+
+#deal .infoDeal {
+  line-height: 18px;
+  padding: 5px;
+}
+
+#deal .infoDeal p {
+  margin: 7px 0;
+  line-height: 16px;
+}
+
+#deal .infoDeal .clearfix {
+  border-top: 1px solid #ddd;
+  padding: 3px 0 5px;
+  margin: 10px 0 20px;
+  font-size: 13px;
+  text-align: right;
+}
+
+#deal .infoDeal .clearfix span:nth-child(1) {
+  float: left;
+  font-weight: bold;
+}
+
+#deal .infoDeal a {
+  text-decoration: underline;
+  color: #252525;
+}
+
+#deal .infoDeal ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+#deal .infoDeal li {
+  list-style: disc
+}
+
+#detail-page #deal .detailHeader.dh2 .detailHeaderRight {
+  font-size: 13px
+}
+
+#detail-page #deal .detailHeader.dh2 {
+  min-height: 80px;
+  padding-top: 6px;
+}
+
+.adBanner {
+  display: block
+}
+
+.detailPage .adBanner {
+  margin-top: 10px
+}
+
+.adBanner img {
+  width: 100%
+}
+
+#detail-page #dealsList .content {
+  padding: 5px
+}
+
+.errorReport h2.pageTitle {
+  font-size: 16px;
+  color: #252525;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.errorReport h2.pageTitle em {
+  font-size: 12px;
+  display: block;
+  color: #A1A1A1;
+  font-weight: normal;
+}
+
+.errorReport h2.pageTitle em strong {
+  color: red
+}
+
+.errorReport > div > h2 {
+  line-height: 30px;
+  padding: 0 5px;
+}
+
+.errorReport > form {
+  padding: 10px 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 5px 0;
+}
+
+.errorReport ul#owner {
+  margin: 5px 0 10px
+}
+
+.errorReport ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.errorReport h2 {
+  font-weight: bold
+}
+
+.errorReport div label {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.errorReport div label.required:after,
+.errorReport .errCheckbox > div input[type="checkbox"]:checked + span:after,
+.errorReport > form h2:after {
+  color: red;
+  content: ' *';
+}
+
+.errorReport div input,
+.displayMapPage input {
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.errorReport div input[readonly="readonly"] {
+  color: #ccc
+}
+
+.errorReport div.clearfix div,
+.errorReports div.clearfix div p {
+  margin-top: 5px
+}
+
+.errorReport div.clearfix div input,
+.errorReport input[type="text"],
+.errorReport input[type="email"],
+.errorReport input[type="url"],
+.errorReport input[type="number"],
+.displayMapPage input[type="text"] {
+  width: 97%;
+  margin-top: 4px;
+}
+
+.displayMapPage form {
+  padding: 20px
+}
+
+.errorReport .errCheckbox {
+  margin: 10px 0
+}
+
+.errorReport .errCheckbox h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.errorReport .errCheckbox div > div {
+  display: none
+}
+
+.errorReport .errCheckbox > div {
+  margin: 0 0 7px 0
+}
+
+.errorReport .errCheckbox > div > div {
+  display: none
+}
+
+.errorReport .errCheckbox > div > div input,
+.errorReport .errCheckbox > div > div textarea {
+  margin: 4px 0 0 2%;
+  width: 94%;
+}
+
+.errorReport .busInfo h3 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.errorReport input.ypButton,
+.displayMapPage input.ypButton {
+  float: right
+}
+
+.missingPage .errorReport input.ypButton,
+.displayMapPage input.ypButton {
+  margin-top: 10px
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+  color: #878686;
+  padding: 15px 10px 5px;
+  margin: 0px;
+}
+
+footer li {
+  display: inline
+}
+
+footer li a {
+  color: #444444;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0px 2px 5px;
+  padding-right: 5px;
+  border-right: 1px solid #aaa;
+  font-weight: bold;
+}
+
+footer li:last-child a {
+  border-right: 0;
+  padding-right: 0;
+}
+
+footer p {
+  margin-top: 5px
+}
+
+body.yadPage {
+  margin: 0 auto;
+  height: 100%;
+}
+
+nav#bottomMenu ul {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #444444;
+  background-image: -webkit-linear-gradient(top, #141414 50%, #000000 50%);
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.5, #141414), color-stop(0.5, #000000) );
+}
+
+nav#bottomMenu li {
+  width: 25%;
+  display: block;
+}
+
+nav#bottomMenu li a {
+  font-size: 11px;
+  display: block;
+  text-decoration: none;
+  color: #808080;
+  font-weight: bold;
+  padding-top: 4px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+nav#bottomMenu li a:before {
+  content: '';
+  display: block;
+  text-align: center;
+  height: 25px;
+  margin: 0 auto 4px auto;
+}
+
+nav#bottomMenu li a#yad_website:before {
+  background-position: -58px 0px;
+  width: 23px;
+}
+
+nav#bottomMenu li a#yad_list:before {
+  background-position: 0px 0px;
+  width: 25px;
+}
+
+nav#bottomMenu li a#yad_map:before {
+  background-position: -88px 0px;
+  width: 13px;
+}
+
+nav#bottomMenu li a#yad_close:before {
+  background-position: -29px 0px;
+  width: 25px;
+}
+
+nav#bottomMenu li a.yad_disabled {
+  opacity: 0.2
+}
+
+.alert {
+  overflow: hidden;
+  padding: 10px 5px 10px 30px;
+  margin: 5px 0;
+  border: 1px solid;
+  position: relative;
+  border-width: 1px 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.9);
+  background-size: 10px 10px;
+  -webkit-background-size: 10px 10px;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+.alert:before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 12px;
+  height: 12px;
+}
+
+.alert.error {
+  color: #fa3d3d;
+  border-color: #e86d6d;
+  background-color: #ffdcdc;
+}
+
+.alert.error:before {
+  background-position: -31px -28px
+}
+
+.alert.success {
+  color: #496116;
+  border-color: #496116;
+  background-color: #d8e5bc;
+}
+
+.alert.success:before {
+  background-position: -50px -29px
+}
+
+.alert.attention {
+  color: #157db0;
+  border-color: #7daeca;
+  background-color: #d2e7f3;
+}
+
+.alert.attention:before {
+  background-position: -3px -28px
+}
+
+.alert.knowing {
+  color: #8b6603;
+  border-color: #8b6604;
+  background-color: #f7ebbb;
+}
+
+.alert.knowing:before {
+  background-position: -20px -28px;
+  width: 4px;
+  height: 16px;
+  top: 8px;
+  left: 15px;
+}
+
+.link {
+  cursor: pointer
+}
+
+.padd2 {
+  padding: 0 1%
+}
+
+.hidden {
+  visibility: hidden
+}
+
+.displayMapPage footer,
+.displayMapPage .itinerary_from {
+  display: none
+}
+
+.error_list {
+  margin: 2px 0 0 2px
+}
+
+.error_list li {
+  color: red
+}
+
+.clearfix:after,
+#detail-page .businessInfo h3 + div ul:after,
+.downloadApp a:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-table
+}
+
+.clearfix {
+  height: 1%
+}
+
+.clearfix {
+  display: block
+}
+
+@media all and (orientation:landscape) and (max-width:480px) and (max-height:320px) {
+    .list.msp.direction h1,
+    .list.msp.direction p {
+      width: 82%
+    }
+
+    footer {
+      font-size: 70%
+    }
+}

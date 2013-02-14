@@ -1,0 +1,449 @@
+.infoWindow {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', endColorstr='#393939',GradientType=0 )
+}
+
+.list.msp {
+
+}
+
+header {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#242424',GradientType=0 )
+}
+
+.firefox header {
+  height: 36px
+}
+
+.ypg header > section {
+  width: 95%
+}
+
+.ypg header .showMenu {
+  width: 5%
+}
+
+.ypg header > section ul li {
+  width: 33.2%
+}
+
+header > a:hover,
+header > a.active,
+.ypg header.menuOn .showMenu,
+.ypg header > section ul li a:hover,
+.ypg.business header > section ul li.business a,
+.ypg.person header > section ul li.person a,
+.ypg.reverse header > section ul li.reverse a {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', endColorstr='#444444',GradientType=0 )
+}
+
+.searchBox,
+.searchPage .grid,
+.ypg .tabsSearch,
+#detail-page .merchantActions ul li {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF200', endColorstr='#f5d716',GradientType=0 )
+}
+
+.business .searchBox li.business,
+.business .searchBox li.active,
+.person .searchBox li.person,
+.reverse .searchBox li.reverse,
+.ypg .tabsSearch a.active {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf5ab', endColorstr='#fbef89',GradientType=0 )
+}
+
+.ypg #detail-page
+.detailHeader > div,
+#detail-page a.readReview,
+.reviewsPage a.readReview,
+#detail-page div.moreDeals,
+#detail-page div.dealExpire,
+.indexPage .topDeals > div {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 )
+}
+
+header,
+#detail-page .detailHeader > div:first-child,
+.shareBar ul,
+#detail-page h3.contentTitle.paymentIcon + div ul,
+nav#bottomMenu ul,
+.overlay > div.shopWise ul,
+.locToggle ul,
+#detail-page h3.contentTitle.whosIcon + div.content .fsCount ul,
+.reviewsPage .oneReview,
+h3.contentTitle.dealsIcon + div div.content,
+.indexPage .topDeals > div > a,
+.searchPage .deal {
+  width: 100%
+}
+
+.ypg.firefox header > section,
+.ypg.ie8 header > section,
+.ypg.ie9 header > section {
+  width: 725px
+}
+
+.ypg.firefox header .showMenu,
+.ypg.ie8 header .showMenu,
+.ypg.ie9 header .showMenu {
+  width: 40px
+}
+
+.mainContent div div li {
+  width: 24.5%
+}
+
+.ypButton {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5b5d', endColorstr='#000',GradientType=0 );
+  cursor: pointer;
+}
+
+.ie8 .ypButton {
+  padding-top: 4px
+}
+
+form.inputForm #searchwhere {
+  width: 85%
+}
+
+:lang(fr) form.inputForm #searchwhere {
+  width: 82%
+}
+
+@media screen and (max-width:600px) {
+    :lang(fr) form.inputForm #searchwhere {
+      width: 70%
+    }
+}
+
+#loclink {
+  background-color: #fcdf22;
+  right: -1px;
+}
+
+.reviewsPage .oneReview[href*="http"],
+#detail-page h3.contentTitle + div .content[href] {
+  cursor: pointer
+}
+
+.business .cats li a {
+  font-size: 12px
+}
+
+.firefox.business .cats li a:before {
+  margin-bottom: 10px !important
+}
+
+.autosuggest {
+
+}
+
+.autosuggest .asItem {
+  padding-left: 18px
+}
+
+.ypg.list:not(.msp):hover,
+.reviewsPage .oneReview[href*="http"]:hover,
+#detail-page h3.contentTitle + div .content[href]:hover {
+
+}
+
+.btnCall,
+.btnDirection {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b4b9', endColorstr='#888f98',GradientType=0 )
+}
+
+.list .btnCall,
+.list .btnDirection {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ef35', endColorstr='#eeca14',GradientType=0 )
+}
+
+.boxFilter p a {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e6e6e6',GradientType=0 );
+  font-weight: bold;
+}
+
+#detail-page h3.contentTitle.reviewsIcon + div > h4 {
+
+}
+
+.boxFilter p a {
+  width: 150px;
+  margin: 10px auto;
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  -webkit-column-count: 1;
+  -webkit-column-gap: 0px;
+}
+
+#detail-page h3.contentTitle.paymentIcon + div ul.paymentLogo li {
+  margin-right: 5px
+}
+
+#detail-page h3.contentTitle.gettingThereIcon + div .mapWrap img {
+  margin-left: -380px
+}
+
+@media all and (min-width:500px) {
+    .ypg .shareBar ul {
+      width: 50%;
+      margin: 0 auto;
+      position: relative;
+    }
+
+}
+
+.ypg .shareBar ul li a.shareEmail {
+  background: -moz-linear-gradient(top, #6bbbf4 0%, #3fa7f0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fa7f0', endColorstr='#42A9F1',GradientType=0 );
+}
+
+.ypg .shareBar ul li a.shareSms {
+  background: -moz-linear-gradient(top, #7dbd49 0%, #56a912 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dbd49', endColorstr='#56a912',GradientType=0 );
+}
+
+.ypg .shareBar ul li a.shareFacebook {
+  background: -moz-linear-gradient(top, #6685c4 0%, #3b5a99 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6685c4', endColorstr='#3b5a99',GradientType=0 );
+}
+
+.ypg .shareBar ul li a.shareTwitter {
+  background: -moz-linear-gradient(top, #71dcff 0%, #35cdff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71dcff', endColorstr='#35cdff',GradientType=0 );
+}
+
+.errorReport > form {
+  padding: 25px;
+  margin: 5px;
+}
+
+.errorReport div input {
+  padding: 5px
+}
+
+.searchPage .selectedList {
+  padding: 15px 20px 15px 55px
+}
+
+.sharePage .inputForm {
+  padding: 20px
+}
+
+#slider {
+  margin: 0 20px
+}
+
+.locToggle {
+  background: -moz-linear-gradient(top, #f4f4f4 0%, #cbcbcb 3%, #f1f1f1 92%, #b4b4b4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbcbcb', endColorstr='#f1f1f1',GradientType=0 );
+}
+
+.locToggle ul {
+  background: -moz-linear-gradient(top, #f0f0f0 0%, #e0e0e0 100%);
+  margin: 0 auto;
+  width: 100%;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#e0e0e0',GradientType=0 );
+}
+
+.locToggle ul li.active {
+  background: -moz-linear-gradient(top, #b3b3b3 0%, #d2d2d2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b3', endColorstr='#d2d2d2',GradientType=0 );
+}
+
+#deal .priceTable {
+  background: -moz-linear-gradient(top, #fff 0%, #e6e6e6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d2d2d2',GradientType=0 );
+}
+
+.reviewsPage .oneReview[href*="http"] {
+  position: relative;
+  padding-right: 30px;
+}
+
+.reviewsPage .oneReview[href*="http"]:after {
+  right: 10px
+}
+
+#detail-page h3.contentTitle.whosIcon + div.content .fsCheckin a {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#c7c7c7',GradientType=0 )
+}
+
+.firefox #detail-page h3.contentTitle.whosIcon + div.content .fsCount ul,
+.firefox.ypg .shareBar ul {
+  margin-left: 25%
+}
+
+footer {
+  border-top: none
+}
+
+#detail-page #slider ul li a.video:before {
+  display: none
+}
+
+#detail-page {
+  box-shadow: 0 10px 5px -6px rgba(70, 70, 70, 0.2) inset
+}
+
+.partnerfoursquare span {
+  display: inline-block;
+  float: left;
+}
+
+.ypg #detail-page .detailHeader > div,
+.firefox .indexPage .topDeals > div {
+  width: 100%
+}
+
+.firefox #detail-page a.readReview,
+.firefox.reviewsPage a.readReview,
+.firefox #detail-page div.moreDeals,
+.firefox  #detail-page div.dealExpire {
+  width: 97%
+}
+
+.firefox .rating > span {
+  font-size: 22px;
+  width: 16px;
+}
+
+@media screen and (max-width:299px) {
+    form.inputForm #searchwhere {
+      width: 97%;
+      float: none;
+      margin-bottom: 5px;
+    }
+
+    form.inputForm input[type^="t"],
+    .sharePage .search-field-outer input {
+      font-size: 13px
+    }
+
+    .business .cats li {
+      width: auto;
+      width: 100%;
+      float: none;
+      height: 46px;
+      padding: 5px 5px 5px 10px;
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid #C6C6C6;
+    }
+
+    .ypg.business .cats {
+      width: 99%
+    }
+
+    .business .cats li a {
+      text-align: left;
+      line-height: 38px;
+    }
+
+    .business .cats li a:before {
+      float: left;
+      margin-right: 15px !important;
+    }
+
+    form.inputForm {
+      margin-bottom: 5px
+    }
+
+    #loclink:after {
+      margin-top: 5px
+    }
+
+    .autosuggest {
+      top: 120px
+    }
+
+    .indexPage .topDeals img {
+      width: 60px
+    }
+
+    .mainContent div div li,
+    .ypg .tabsSearch a {
+      font-size: 10px
+    }
+
+    .indexPage .topDeals article .dealtitle {
+      font-size: 12px
+    }
+
+    .ypButton {
+      height: 30px;
+      font-size: 14px;
+    }
+
+    header .button,
+    header .button.back {
+      padding: 0 8px
+    }
+
+    .button.back {
+      margin-left: 7px;
+      padding: 0px 5px 0px 3px;
+    }
+
+    .list .btnCall,
+    .list .btnDirection {
+      padding: 7px 12px
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:767px) {
+    form.inputForm #searchwhere {
+      width: 73%
+    }
+
+    .ypg header > section {
+      width: 92%
+    }
+
+    .ypg header .showMenu {
+      width: 8%
+    }
+
+    .ypg header > section ul li {
+      width: 33.1%
+    }
+
+    #loclink {
+      right: 0px
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    body {
+      width: 768px;
+      margin: 0 auto;
+    }
+
+    html {
+      background-color: #fff
+    }
+
+    .mainContent {
+
+    }
+
+    .overlay {
+      width: 768px;
+      left: 50%;
+      margin-left: -384px;
+    }
+
+    .downloadApp a {
+      font-size: 100%
+    }
+
+    :lang(fr) .downloadApp a {
+      font-size: 90%
+    }
+
+}
